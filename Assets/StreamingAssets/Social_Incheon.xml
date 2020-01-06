@@ -1,0 +1,3838 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ScenarioInfo>
+  <MaxStage>4</MaxStage>
+  <MaxMedal2D>0</MaxMedal2D>
+  <MaxMedal3D>0</MaxMedal3D>
+  <StageInfoList>
+    <StageInfo num="0">
+      <CanvasCount>2</CanvasCount>
+      <CharacterList>
+        <CharType2D>
+          <Canvas ID="0">
+            <CreateCharList>
+              <CreateChar ID="0" Name="CH_04" Desc="테스트용"></CreateChar>              
+            </CreateCharList>
+          </Canvas>
+        </CharType2D>       
+      </CharacterList>
+      <ObjectList>
+        <ObjType2D>          
+          <Canvas ID="0">
+            <CreateObjList>
+              <CreateObj ID="0" Name="TextBox" Desc="테스트_오브젝트1"></CreateObj>
+              <CreateObj ID="1" Name="forward" Desc="테스트_오브젝트2"></CreateObj>
+            </CreateObjList>
+          </Canvas>
+        </ObjType2D>        
+      </ObjectList>
+    </StageInfo>
+    <StageInfo num="1">
+      <CanvasCount>3</CanvasCount>
+      <CharacterList>
+        <CharType2D>
+          <Canvas ID="0">
+            <CreateCharList>
+              <CreateChar ID="0" Name="CH_04" Desc="테스트용"></CreateChar>
+              <CreateChar ID="1" Name="CH_01" Desc="테스트용"></CreateChar>
+              <CreateChar ID="2" Name="CH_02" Desc="테스트용"></CreateChar>
+              <CreateChar ID="3" Name="CH_06" Desc="테스트용"></CreateChar>
+            </CreateCharList>
+          </Canvas>
+        </CharType2D>       
+      </CharacterList>
+      <ObjectList>
+        <ObjType2D>
+          <Canvas ID="0">
+            <CreateObjList>
+              <CreateObj ID="0" Name="System_PopUp" Desc="테스트_오브젝트1"></CreateObj>
+              <CreateObj ID="1" Name="TextBox" Desc="테스트_오브젝트2"></CreateObj>
+              <CreateObj ID="2" Name="forward" Desc="테스트_오브젝트2"></CreateObj>
+              <CreateObj ID="3" Name="PopUp" Desc="테스트_오브젝트2"></CreateObj>
+              <CreateObj ID="4" Name="Link" Desc="테스트_오브젝트2"></CreateObj>              
+              <CreateObj ID="5" Name="Title" Desc="지시문"></CreateObj>
+              <CreateObj ID="6" Name="CardTextBox" Desc="지시문"></CreateObj>
+              <CreateObj ID="7" Name="Shadow_L" Desc="지시문"></CreateObj>
+              <CreateObj ID="8" Name="Shadow_R" Desc="지시문"></CreateObj>
+              <CreateObj ID="9" Name="Map" Desc="테스트"></CreateObj>
+              <CreateObj ID="10" Name="ClipScene_Button" Desc="의상변경 말상자"></CreateObj>
+              <CreateObj ID="11" Name="ClipStart_PopUp" Desc="의상변경 말상자"></CreateObj>
+              <CreateObj ID="12" Name="Confirm_PopUp_1" Desc="테스트_오브젝트2"></CreateObj>
+              <CreateObj ID="13" Name="Input_Text_PopUp_2" Desc="테스트_오브젝트2"></CreateObj>
+              <CreateObj ID="14" Name="Select_PopUp_3" Desc="테스트_오브젝트2"></CreateObj>
+              <CreateObj ID="15" Name="Controller" Desc="테스트_오브젝트2"></CreateObj>              
+            </CreateObjList>
+          </Canvas>
+          <Canvas ID="1">
+            <CreateObjList>
+              <CreateObj ID="0" Name="BackGround" Desc="테스트_오브젝트1"></CreateObj>
+              <CreateObj ID="1" Name="Card" Desc="닫기"></CreateObj>
+              <CreateObj ID="2" Name="PopUp" Desc="테스트_오브젝트2"></CreateObj>
+            </CreateObjList>
+          </Canvas>   
+          <Canvas ID="2">
+            <CreateObjList>             
+            </CreateObjList>
+          </Canvas>          
+        </ObjType2D>
+        <ObjType3D>
+          <CreateObjList>            
+            <CreateObj ID="0" Name="Sphere" Desc="테스트_오브젝트3D_1"></CreateObj>              
+          </CreateObjList>
+        </ObjType3D>
+      </ObjectList>
+    </StageInfo>
+    <StageInfo num="2">
+      <CanvasCount>3</CanvasCount>
+      <CharacterList>
+        <CharType2D>
+          <Canvas ID="0">
+            <CreateCharList>
+              <CreateChar ID="0" Name="CH_04" Desc="테스트용"></CreateChar>
+              <CreateChar ID="1" Name="CH_01" Desc="테스트용"></CreateChar>
+              <CreateChar ID="2" Name="CH_02" Desc="테스트용"></CreateChar>
+              <CreateChar ID="3" Name="CH_07" Desc="테스트용"></CreateChar>             
+            </CreateCharList>
+          </Canvas>
+        </CharType2D>       
+      </CharacterList>
+      <ObjectList>
+        <ObjType2D>
+          <Canvas ID="0">
+            <CreateObjList>
+              <CreateObj ID="0" Name="System_PopUp" Desc="테스트_오브젝트1"></CreateObj>
+              <CreateObj ID="1" Name="TextBox" Desc="테스트_오브젝트2"></CreateObj>
+              <CreateObj ID="2" Name="forward" Desc="테스트_오브젝트2"></CreateObj>              
+              <CreateObj ID="3" Name="Link" Desc="테스트_오브젝트2"></CreateObj>
+              <CreateObj ID="4" Name="Confirm_PopUp_1" Desc="테스트_오브젝트2"></CreateObj>
+              <CreateObj ID="5" Name="Map" Desc="테스트"></CreateObj>
+              <CreateObj ID="6" Name="ClipScene_Button" Desc="의상변경 말상자"></CreateObj>
+              <CreateObj ID="7" Name="ClipStart_PopUp" Desc="의상변경 말상자"></CreateObj>
+              <CreateObj ID="8" Name="Controller" Desc="테스트_오브젝트2"></CreateObj>
+              <CreateObj ID="9" Name="URL_PopUp_1" Desc="의상변경 말상자"></CreateObj>
+              <CreateObj ID="10" Name="Close" Desc="닫기"></CreateObj>              
+            </CreateObjList>
+          </Canvas>
+          <Canvas ID="1">
+            <CreateObjList>
+              <CreateObj ID="0" Name="BackGround" Desc="테스트_오브젝트1"></CreateObj>
+              <CreateObj ID="1" Name="PopUp" Desc="테스트_오브젝트2"></CreateObj>
+            </CreateObjList>
+          </Canvas>
+          <Canvas ID="2">
+            <CreateObjList>
+              <CreateObj ID="0" Name="Money_2" Desc="의상"></CreateObj>
+            </CreateObjList>
+          </Canvas>
+        </ObjType2D>
+        <ObjType3D>
+          <CreateObjList>
+            <CreateObj ID="0" Name="Sphere" Desc="테스트_오브젝트3D_1"></CreateObj>  
+          </CreateObjList>          
+        </ObjType3D>
+      </ObjectList>
+    </StageInfo>    
+  </StageInfoList>
+  <StageSetList>    
+    <StageSet num="0">
+      <BranchList>
+        <BranchItem ID="0">
+          <Count>0</Count> 
+        </BranchItem>        
+      </BranchList>
+      <PageList>
+        <Stage Prev="-1" Index="0" Next="1" EventType="Text" EventID="0">
+          <BackGround>
+            <Image>BG</Image>
+            <Music On="0" Src="null"/>
+            <Effect On="0" Src="null"/>
+            <Narration On="1" Src1="04_사회과_체험형_여_02_해설_02" Src2="04_사회과_체험형_여_02_해설_02"/>
+            <Navi On="0" Index="-1"/>
+          </BackGround>
+        </Stage>
+        <Stage Prev="0" Index="1" Next="2" EventType="Text" EventID="1">
+          <BackGround>
+            <Image>BG</Image>
+            <Music On="0" Src="null"/>
+            <Effect On="0" Src="null"/>
+            <Narration On="1" Src1="04_사회과_체험형_여_02_해설_03" Src2="04_사회과_체험형_여_02_해설_03"/>
+            <Navi On="0" Index="-1"/>
+          </BackGround>
+        </Stage>
+        <Stage Prev="1" Index="2" Next="3" EventType="LoadScene" EventID="0">
+          <BackGround>
+            <Image>BG</Image>
+            <Music On="0" Src="null"/>
+            <Effect On="0" Src="null"/>
+            <Narration On="0" Src="null"/>
+            <Navi On="0" Index="-1"/>
+          </BackGround>
+        </Stage>        
+      </PageList>
+    </StageSet>
+    <StageSet num="1">
+      <BranchList>
+        <BranchItem ID="0">
+          <Count>4</Count>
+        </BranchItem>
+      </BranchList>
+      <PageList>
+        <Stage Prev="-1" Index="0" Next="1" EventType="Text" EventID="2">
+          <BackGround>
+            <Image>능허대 배경</Image>
+            <Music On="0" Src="null"/>
+            <Effect On="0" Src="null"/>
+            <Narration On="1" Src1="04_사회과_체험형_여_02_해설_04" Src2="04_사회과_체험형_여_02_해설_04"/>
+            <Navi On="0" Index="-1"/>
+          </BackGround>
+        </Stage>        
+        <Stage Prev="0" Index="1" Next="2" EventType="SphereImageOn" EventID="0">
+          <BackGround>
+            <Image>능허대 배경</Image>
+            <Music On="0" Src="null"/>
+            <Effect On="0" Src="null"/>
+            <Narration On="1" Src1="04_사회과_체험형_여_02_해설_05" Src2="04_사회과_체험형_여_02_해설_05"/>
+            <Navi On="0" Index="-1"/>
+          </BackGround>
+        </Stage>                
+        <Stage Prev="1" Index="2" Next="3" EventType="Text" EventID="3">
+          <BackGround>
+            <Image>능허대 배경</Image>
+            <Music On="0" Src="null"/>
+            <Effect On="0" Src="null"/>
+            <Narration On="0" Src="null"/>
+            <Navi On="0" Index="-1"/>
+          </BackGround>
+        </Stage>
+        <Stage Prev="2" Index="3" Next="4" EventType="Text" EventID="4">
+          <BackGround>
+            <Image>능허대 배경</Image>
+            <Music On="0" Src="null"/>
+            <Effect On="0" Src="null"/>
+            <Narration On="1" Src1="04_사회과_체험형_여_02_해설_07" Src2="04_사회과_체험형_여_02_해설_07"/>
+            <Navi On="0" Index="-1"/>
+          </BackGround>
+        </Stage>
+        <!-- 3D Animation -->
+        <Stage Prev="3" Index="4" Next="5" EventType="SphereImageOn" EventID="2">
+          <BackGround>
+            <Image>null</Image>
+            <Music On="0" Src="null"/>
+            <Effect On="0" Src="null"/>
+            <Narration On="0" Src="null"/>
+            <Navi On="0" Index="-1"/>
+          </BackGround>
+        </Stage>        
+        <Stage Prev="4" Index="5" Next="6" EventType="Text" EventID="5">
+          <BackGround>
+            <Image>능허대 배경</Image>
+            <Music On="0" Src="null"/>
+            <Effect On="0" Src="null"/>
+            <Narration On="1" Src1="04_사회과_체험형_여_01_player_02" Src2="04_사회과_체험형_남_01_player_02"/>
+            <Navi On="0" Index="-1"/>
+          </BackGround>
+        </Stage>
+        <Stage Prev="5" Index="6" Next="7" EventType="Text" EventID="6">
+          <BackGround>
+            <Image>능허대 배경</Image>
+            <Music On="0" Src="null"/>
+            <Effect On="0" Src="null"/>
+            <Narration On="1" Src1="04_사회과_체험형_여_02_해설_08" Src2="04_사회과_체험형_여_02_해설_08"/>
+            <Navi On="0" Index="-1"/>
+          </BackGround>
+        </Stage>
+        <Stage Prev="6" Index="7" Next="8" EventType="Text" EventID="7">
+          <BackGround>
+            <Image>능허대 배경</Image>
+            <Music On="0" Src="null"/>
+            <Effect On="0" Src="null"/>
+            <Narration On="1" Src1="04_사회과_체험형_남_02_중국상인_01" Src2="04_사회과_체험형_남_02_중국상인_01"/>
+            <Navi On="0" Index="-1"/>
+          </BackGround>
+        </Stage>
+        <Stage Prev="7" Index="8" Next="9" EventType="Text" EventID="8">
+          <BackGround>
+            <Image>능허대 배경</Image>
+            <Music On="0" Src="null"/>
+            <Effect On="0" Src="null"/>
+            <Narration On="1" Src1="04_사회과_체험형_남_02_중국상인_02" Src2="04_사회과_체험형_남_02_중국상인_02"/>
+            <Navi On="0" Index="-1"/>
+          </BackGround>
+        </Stage>
+        <Stage Prev="8" Index="9" Next="10" EventType="Text" EventID="9">
+          <BackGround>
+            <Image>능허대 배경</Image>
+            <Music On="0" Src="null"/>
+            <Effect On="0" Src="null"/>
+            <Narration On="0" Src="null"/>
+            <Navi On="0" Index="-1"/>
+          </BackGround>
+        </Stage>
+        <Stage Prev="9" Index="10" Next="11" EventType="Text" EventID="10">
+          <BackGround>
+            <Image>능허대 배경</Image>
+            <Music On="0" Src="null"/>
+            <Effect On="0" Src="null"/>
+            <Narration On="1" Src1="04_사회과_체험형_남_02_중국상인_03" Src2="04_사회과_체험형_남_02_중국상인_03"/>
+            <Navi On="0" Index="-1"/>
+          </BackGround>
+        </Stage>
+        <Stage Prev="10" Index="11" Next="12" EventType="Text" EventID="11">
+          <BackGround>
+            <Image>능허대 배경</Image>
+            <Music On="0" Src="null"/>
+            <Effect On="0" Src="null"/>
+            <Narration On="0" Src="null"/>
+            <Navi On="0" Index="-1"/>
+          </BackGround>
+        </Stage>
+        <Stage Prev="11" Index="12" Next="13" EventType="Text" EventID="12">
+          <BackGround>
+            <Image>능허대 배경</Image>
+            <Music On="0" Src="null"/>
+            <Effect On="0" Src="null"/>
+            <Narration On="1" Src1="04_사회과_체험형_남_02_중국상인_04" Src2="04_사회과_체험형_남_02_중국상인_04"/>
+            <Navi On="0" Index="-1"/>
+          </BackGround>
+        </Stage>
+        <Stage Prev="12" Index="13" Next="14" EventType="Text" EventID="13">
+          <BackGround>
+            <Image>능허대 배경</Image>
+            <Music On="0" Src="null"/>
+            <Effect On="0" Src="null"/>
+            <Narration On="1" Src1="04_사회과_체험형_여_01_player_03" Src2="04_사회과_체험형_남_01_player_03"/>
+            <Navi On="0" Index="-1"/>
+          </BackGround>
+        </Stage>
+        <Stage Prev="13" Index="14" Next="15" EventType="Text" EventID="14">
+          <BackGround>
+            <Image>능허대 배경</Image>
+            <Music On="0" Src="null"/>
+            <Effect On="0" Src="null"/>
+            <Narration On="1" Src1="04_사회과_체험형_남_02_중국상인_05" Src2="04_사회과_체험형_남_02_중국상인_05"/>
+            <Navi On="0" Index="-1"/>
+          </BackGround>
+        </Stage>
+        <Stage Prev="14" Index="15" Next="16" EventType="Text" EventID="15">
+          <BackGround>
+            <Image>능허대 배경</Image>
+            <Music On="0" Src="null"/>
+            <Effect On="0" Src="null"/>
+            <Narration On="1" Src1="04_사회과_체험형_여_01_player_04" Src2="04_사회과_체험형_남_01_player_04"/>
+            <Navi On="0" Index="-1"/>
+          </BackGround>
+        </Stage>
+        <Stage Prev="15" Index="16" Next="17" EventType="Text" EventID="16">
+          <BackGround>
+            <Image>능허대 배경</Image>
+            <Music On="0" Src="null"/>
+            <Effect On="0" Src="null"/>
+            <Narration On="1" Src1="04_사회과_체험형_남_02_중국상인_06" Src2="04_사회과_체험형_남_02_중국상인_06"/>
+            <Navi On="0" Index="-1"/>
+          </BackGround>
+        </Stage>
+        <Stage Prev="16" Index="17" Next="18" EventType="Text" EventID="17">
+          <BackGround>
+            <Image>능허대 배경</Image>
+            <Music On="0" Src="null"/>
+            <Effect On="0" Src="null"/>
+            <Narration On="1" Src1="04_사회과_체험형_여_01_player_05" Src2="04_사회과_체험형_남_01_player_05"/>
+            <Navi On="0" Index="-1"/>
+          </BackGround>
+        </Stage>
+        <Stage Prev="17" Index="18" Next="19" EventType="Text" EventID="18">
+          <BackGround>
+            <Image>능허대 배경</Image>
+            <Music On="0" Src="null"/>
+            <Effect On="0" Src="null"/>
+            <Narration On="1" Src1="04_사회과_체험형_여_02_해설_09" Src2="04_사회과_체험형_여_02_해설_09"/>
+            <Navi On="0" Index="-1"/>
+          </BackGround>
+        </Stage>
+        <Stage Prev="18" Index="19" Next="20" EventType="Quiz" EventID="0">
+          <BackGround>
+            <Image>능허대 배경</Image>
+            <Music On="0" Src="null"/>
+            <Effect On="0" Src="null"/>
+            <Narration On="0" Src="null"/>
+            <Navi On="0" Index="-1"/>
+          </BackGround>
+        </Stage>
+        <Stage Prev="19" Index="20" Next="21" EventType="Text" EventID="19">
+          <BackGround>
+            <Image>능허대 배경</Image>
+            <Music On="0" Src="null"/>
+            <Effect On="0" Src="null"/>
+            <Narration On="1" Src1="04_사회과_체험형_여_02_해설_12" Src2="04_사회과_체험형_여_02_해설_12"/>
+            <Navi On="0" Index="-1"/>
+          </BackGround>
+        </Stage>
+        <Stage Prev="20" Index="21" Next="22" EventType="Text" EventID="20">
+          <BackGround>
+            <Image>능허대 배경</Image>
+            <Music On="0" Src="null"/>
+            <Effect On="0" Src="null"/>
+            <Narration On="1" Src1="04_사회과_체험형_여_01_player_06" Src2="04_사회과_체험형_남_01_player_06"/>
+            <Navi On="0" Index="-1"/>
+          </BackGround>
+        </Stage>
+        <Stage Prev="21" Index="22" Next="23" EventType="Text" EventID="21">
+          <BackGround>
+            <Image>능허대 배경</Image>
+            <Music On="0" Src="null"/>
+            <Effect On="0" Src="null"/>
+            <Narration On="1" Src1="04_사회과_체험형_여_02_해설_13" Src2="04_사회과_체험형_여_02_해설_13"/>
+            <Navi On="0" Index="-1"/>
+          </BackGround>
+        </Stage>
+        <Stage Prev="22" Index="23" Next="24" EventType="TakeCapture" EventID="0">
+          <BackGround>
+            <Image>능허대 배경</Image>
+            <Music On="0" Src="null"/>
+            <Effect On="0" Src="null"/>
+            <Narration On="0" Src="null"/>
+            <Navi On="0" Index="-1"/>
+          </BackGround>
+        </Stage>        
+        <Stage Prev="23" Index="24" Next="25" EventType="Text" EventID="22">
+          <BackGround>
+            <Image>능허대 배경</Image>
+            <Music On="0" Src="null"/>
+            <Effect On="0" Src="null"/>
+            <Narration On="0" Src="null"/>
+            <Navi On="0" Index="-1"/>
+          </BackGround>
+        </Stage>
+        <Stage Prev="24" Index="25" Next="26" EventType="LoadScene" EventID="0">
+          <BackGround>
+            <Image>능허대 배경</Image>
+            <Music On="0" Src="null"/>
+            <Effect On="0" Src="null"/>
+            <Narration On="0" Src="null"/>
+            <Navi On="0" Index="-1"/>
+          </BackGround>
+        </Stage>        
+      </PageList>
+    </StageSet>
+    <StageSet num="2">      
+      <BranchList>
+          <BranchItem ID="0">
+            <Count>0</Count>
+          </BranchItem>        
+      </BranchList>
+      <PageList>
+        <Stage Prev="-1" Index="0" Next="1" EventType="Text" EventID="25">
+          <BackGround>
+            <Image>인천G타워</Image>
+            <Music On="0" Src="null"/>
+            <Effect On="0" Src="null"/>
+            <Narration On="0" Src="null"/>
+            <Navi On="0" Index="-1"/>
+          </BackGround>
+        </Stage>
+        <Stage Prev="0" Index="1" Next="2" EventType="SphereImageOn" EventID="1">
+          <BackGround>
+            <Image>다문화 음식거리 배경2</Image>
+            <Music On="0" Src="null"/>
+            <Effect On="0" Src="null"/>
+            <Narration On="0" Src="null"/>
+            <Navi On="0" Index="-1"/>
+          </BackGround>
+        </Stage>        
+        <Stage Prev="1" Index="2" Next="3" EventType="Text" EventID="27">
+          <BackGround>
+            <Image>인천G타워</Image>
+            <Music On="0" Src="null"/>
+            <Effect On="0" Src="null"/>
+            <Narration On="0" Src="null"/>
+            <Navi On="0" Index="-1"/>
+          </BackGround>
+        </Stage>
+        <Stage Prev="2" Index="3" Next="4" EventType="Text" EventID="28">
+          <BackGround>
+            <Image>인천G타워</Image>
+            <Music On="0" Src="null"/>
+            <Effect On="0" Src="null"/>
+            <Narration On="0" Src="null"/>
+            <Navi On="0" Index="-1"/>
+          </BackGround>
+        </Stage>
+        <Stage Prev="3" Index="4" Next="5" EventType="Text" EventID="29">
+          <BackGround>
+            <Image>인천G타워</Image>
+            <Music On="0" Src="null"/>
+            <Effect On="0" Src="null"/>
+            <Narration On="0" Src="null"/>
+            <Navi On="0" Index="-1"/>
+          </BackGround>
+        </Stage>        
+        <!-- 3D Animation -->
+        <Stage Prev="4" Index="5" Next="6" EventType="SphereImageOn" EventID="3">
+          <BackGround>
+            <Image>인천G타워</Image>
+            <Music On="0" Src="null"/>
+            <Effect On="0" Src="null"/>
+            <Narration On="0" Src="null"/>
+            <Navi On="0" Index="-1"/>
+          </BackGround>
+        </Stage>        
+        <Stage Prev="5" Index="6" Next="7" EventType="Text" EventID="30">
+          <BackGround>
+            <Image>인천G타워</Image>
+            <Music On="0" Src="null"/>
+            <Effect On="0" Src="null"/>
+            <Narration On="0" Src="null"/>
+            <Navi On="0" Index="-1"/>
+          </BackGround>
+        </Stage>
+        <Stage Prev="6" Index="7" Next="8" EventType="Text" EventID="31">
+          <BackGround>
+            <Image>인천G타워</Image>
+            <Music On="0" Src="null"/>
+            <Effect On="0" Src="null"/>
+            <Narration On="0" Src="null"/>
+            <Navi On="0" Index="-1"/>
+          </BackGround>
+        </Stage>
+        <!-- 퀴즈 등장 -->
+        <Stage Prev="7" Index="8" Next="9" EventType="Quiz" EventID="1">
+          <BackGround>
+            <Image>인천G타워</Image>
+            <Music On="0" Src="null"/>
+            <Effect On="0" Src="null"/>
+            <Narration On="0" Src="null"/>
+            <Navi On="0" Index="-1"/>
+          </BackGround>
+        </Stage>        
+        <Stage Prev="8" Index="9" Next="10" EventType="Text" EventID="32">
+          <BackGround>
+            <Image>인천G타워</Image>
+            <Music On="0" Src="null"/>
+            <Effect On="0" Src="null"/>
+            <Narration On="0" Src="null"/>
+            <Navi On="0" Index="-1"/>
+          </BackGround>
+        </Stage>
+        <Stage Prev="9" Index="10" Next="11" EventType="Quiz" EventID="2">
+          <BackGround>
+            <Image>인천G타워</Image>
+            <Music On="0" Src="null"/>
+            <Effect On="0" Src="null"/>
+            <Narration On="0" Src="null"/>
+            <Navi On="0" Index="-1"/>
+          </BackGround>
+        </Stage>        
+        <Stage Prev="10" Index="11" Next="12" EventType="Text" EventID="33">
+          <BackGround>
+            <Image>인천G타워</Image>
+            <Music On="0" Src="null"/>
+            <Effect On="0" Src="null"/>
+            <Narration On="0" Src="null"/>
+            <Navi On="0" Index="-1"/>
+          </BackGround>
+        </Stage>        
+        <Stage Prev="11" Index="12" Next="13" EventType="Text" EventID="34">
+          <BackGround>
+            <Image>인천G타워</Image>
+            <Music On="0" Src="null"/>
+            <Effect On="0" Src="null"/>
+            <Narration On="0" Src="null"/>
+            <Navi On="0" Index="-1"/>
+          </BackGround>
+        </Stage>        
+        <Stage Prev="12" Index="13" Next="14" EventType="Text" EventID="35">
+          <BackGround>
+            <Image>인천G타워</Image>
+            <Music On="0" Src="null"/>
+            <Effect On="0" Src="null"/>
+            <Narration On="0" Src="null"/>
+            <Navi On="0" Index="-1"/>
+          </BackGround>
+        </Stage>
+        <Stage Prev="13" Index="14" Next="15" EventType="Text" EventID="36">
+          <BackGround>
+            <Image>인천G타워</Image>
+            <Music On="0" Src="null"/>
+            <Effect On="0" Src="null"/>
+            <Narration On="0" Src="null"/>
+            <Navi On="0" Index="-1"/>
+          </BackGround>
+        </Stage>        
+        <!-- 연속 퀴즈.. -->
+        <Stage Prev="14" Index="15" Next="16" EventType="Quiz" EventID="3">
+          <BackGround>
+            <Image>인천G타워</Image>
+            <Music On="0" Src="null"/>
+            <Effect On="0" Src="null"/>
+            <Narration On="0" Src="null"/>
+            <Navi On="0" Index="-1"/>
+          </BackGround>
+        </Stage>
+        <Stage Prev="15" Index="16" Next="17" EventType="Quiz" EventID="4">
+          <BackGround>
+            <Image>인천G타워</Image>
+            <Music On="0" Src="null"/>
+            <Effect On="0" Src="null"/>
+            <Narration On="0" Src="null"/>
+            <Navi On="0" Index="-1"/>
+          </BackGround>
+        </Stage>
+        <Stage Prev="16" Index="17" Next="18" EventType="Quiz" EventID="5">
+          <BackGround>
+            <Image>인천G타워</Image>
+            <Music On="0" Src="null"/>
+            <Effect On="0" Src="null"/>
+            <Narration On="0" Src="null"/>
+            <Navi On="0" Index="-1"/>
+          </BackGround>
+        </Stage>                
+        <Stage Prev="17" Index="18" Next="19" EventType="Text" EventID="37">
+          <BackGround>
+            <Image>인천G타워</Image>
+            <Music On="0" Src="null"/>
+            <Effect On="0" Src="null"/>
+            <Narration On="0" Src="null"/>
+            <Navi On="0" Index="-1"/>
+          </BackGround>
+        </Stage>
+        <Stage Prev="18" Index="19" Next="20" EventType="TakeCapture" EventID="1">
+          <BackGround>
+            <Image>인천G타워</Image>
+            <Music On="0" Src="null"/>
+            <Effect On="0" Src="null"/>
+            <Narration On="0" Src="null"/>
+            <Navi On="0" Index="-1"/>
+          </BackGround>
+        </Stage>
+        <Stage Prev="19" Index="20" Next="21" EventType="Text" EventID="38">
+          <BackGround>
+            <Image>인천G타워</Image>
+            <Music On="0" Src="null"/>
+            <Effect On="0" Src="null"/>
+            <Narration On="0" Src="null"/>
+            <Navi On="0" Index="-1"/>
+          </BackGround>
+        </Stage>
+        <Stage Prev="20" Index="21" Next="22" EventType="LoadScene" EventID="0">
+          <BackGround>
+            <Image>인천G타워</Image>
+            <Music On="0" Src="null"/>
+            <Effect On="0" Src="null"/>
+            <Narration On="0" Src="null"/>
+            <Navi On="0" Index="-1"/>
+          </BackGround>
+        </Stage>        
+      </PageList>
+    </StageSet>    
+  </StageSetList>
+  <EventList>
+    <TextEvent>            
+      <InitEvent ID="0">
+        <InitCharList>
+          <CharType2D>
+            <Canvas ID="0">
+              <InitCharList>
+                <InitChar ID="0" Name="CH_04" Desc="해설" Anim="Idle">
+                  <AnchorMin x="0.7647344" y="0.2833334"/>
+                  <AnchorMax x="0.9881719" y="0.733"/>
+                  <Pivot x="0.5" y="0.5"/>
+                  <OffsetMin x="-932.5" y="-573.5"/>
+                  <OffsetMax x="1051.5" y="218.5"/>
+                  <Rot x="0.0" y="0.0" z="0.0"/>
+                  <Scale x="1.0" y="1.0" z="1.0"/>
+                </InitChar>
+              </InitCharList>
+            </Canvas>
+          </CharType2D>          
+        </InitCharList>
+        <InitObjList>
+          <ObjType2D>
+            <Canvas ID="0">
+              <InitObjList>
+                <InitObj ID="0" Name="TextBox" Desc="테스트_오브젝트1" Anim="null">
+                  <AnchorMin x="0.0" y="0.02147222"/>
+                  <AnchorMax x="0.9928594" y="0.2916111"/>
+                  <Pivot x="0.5" y="0.5"/>
+                  <OffsetMin x="36.5" y="15.0"/>
+                  <OffsetMax x="12.0" y="-12.0"/>
+                  <Rot x="0.0" y="0.0" z="0.0"/>
+                  <Scale x="1.0" y="1.0" z="1.0"/>
+                </InitObj>
+                <InitObj ID="1" Name="forward" Desc="테스트_오브젝트1" Anim="null">
+                  <AnchorMin x="0.9382969" y="0.036"/>
+                  <AnchorMax x="0.9803594" y="0.1208611"/>
+                  <Pivot x="0.5" y="0.5"/>
+                  <OffsetMin x="4.5" y="8.5"/>
+                  <OffsetMax x="3.5" y="6.5"/>
+                  <Rot x="0.0" y="0.0" z="0.0"/>
+                  <Scale x="1.0" y="1.0" z="1.0"/>
+                </InitObj>
+              </InitObjList>
+            </Canvas>
+          </ObjType2D>
+        </InitObjList>
+        <Text>인천광역시 연수구를 둘러볼 것입니다. 인천광역시에는 현재 경제자유구역 3곳과 인천국제공항, G타워가 위치하여 '세계로 뻗어가는 교류의 전진기지'로서 역할을 맡고 있습니다. 인천광역시의 역사를 살펴보면, 이곳이 근대 제물포 개항 이전부터 국제교류의 기지로 존재했음을 확인할 수 있습니다. 능허대는 삼국시대부터 대외교류의 거점으로 역할을 수행했습니다. 인천광역시의 능허대와 G타워에서 국제 거래의 필요성과 환율에 대해서 배워 퀘스트를 완수해 봅시다.</Text>
+      </InitEvent>
+      <InitEvent ID="1">
+        <InitCharList>
+          <CharType2D>
+            <Canvas ID="0">
+              <InitCharList>
+                <InitChar ID="0" Name="CH_04" Desc="해설" Anim="Idle">
+                  <AnchorMin x="0.7647344" y="0.2833334"/>
+                  <AnchorMax x="0.9881719" y="0.733"/>
+                  <Pivot x="0.5" y="0.5"/>
+                  <OffsetMin x="-932.5" y="-573.5"/>
+                  <OffsetMax x="1051.5" y="218.5"/>
+                  <Rot x="0.0" y="0.0" z="0.0"/>
+                  <Scale x="1.0" y="1.0" z="1.0"/>
+                </InitChar>
+              </InitCharList>
+            </Canvas>
+          </CharType2D>
+        </InitCharList>
+        <InitObjList>
+          <ObjType2D>
+            <Canvas ID="0">
+              <InitObjList>
+                <InitObj ID="0" Name="TextBox" Desc="테스트_오브젝트1" Anim="null">
+                  <AnchorMin x="0.0" y="0.02147222"/>
+                  <AnchorMax x="0.9928594" y="0.2916111"/>
+                  <Pivot x="0.5" y="0.5"/>
+                  <OffsetMin x="36.5" y="15.0"/>
+                  <OffsetMax x="12.0" y="-12.0"/>
+                  <Rot x="0.0" y="0.0" z="0.0"/>
+                  <Scale x="1.0" y="1.0" z="1.0"/>
+                </InitObj>
+                <InitObj ID="1" Name="forward" Desc="테스트_오브젝트1" Anim="null">
+                  <AnchorMin x="0.9382969" y="0.036"/>
+                  <AnchorMax x="0.9803594" y="0.1208611"/>
+                  <Pivot x="0.5" y="0.5"/>
+                  <OffsetMin x="4.5" y="8.5"/>
+                  <OffsetMax x="3.5" y="6.5"/>
+                  <Rot x="0.0" y="0.0" z="0.0"/>
+                  <Scale x="1.0" y="1.0" z="1.0"/>
+                </InitObj>
+              </InitObjList>
+            </Canvas>
+          </ObjType2D>
+        </InitObjList>
+        <Text>먼저 둘러보고싶은 곳을 클릭하세요.</Text>
+      </InitEvent>
+      
+      <!-- Stage 1 -->
+      
+      <InitEvent ID="2">
+        <InitCharList>
+          <CharType2D>
+            <Canvas ID="0">
+              <InitCharList>
+                <InitChar ID="0" Name="CH_04" Desc="해설" Anim="Idle">
+                  <AnchorMin x="0.7647344" y="0.2833334"/>
+                  <AnchorMax x="0.9881719" y="0.733"/>
+                  <Pivot x="0.5" y="0.5"/>
+                  <OffsetMin x="-932.5" y="-573.5"/>
+                  <OffsetMax x="1051.5" y="218.5"/>
+                  <Rot x="0.0" y="0.0" z="0.0"/>
+                  <Scale x="1.0" y="1.0" z="1.0"/>
+                </InitChar>
+              </InitCharList>
+            </Canvas>
+          </CharType2D>
+        </InitCharList>
+        <InitObjList>
+          <ObjType2D>
+            <Canvas ID="0">
+              <InitObjList>
+                <InitObj ID="1" Name="TextBox" Desc="테스트_오브젝트1" Anim="null">
+                  <AnchorMin x="0.0" y="0.02147222"/>
+                  <AnchorMax x="0.9928594" y="0.2916111"/>
+                  <Pivot x="0.5" y="0.5"/>
+                  <OffsetMin x="36.5" y="15.0"/>
+                  <OffsetMax x="12.0" y="-12.0"/>
+                  <Rot x="0.0" y="0.0" z="0.0"/>
+                  <Scale x="1.0" y="1.0" z="1.0"/>
+                </InitObj>
+                <InitObj ID="2" Name="forward" Desc="다음 버튼" Anim="null">
+                  <AnchorMin x="0.9382969" y="0.036"/>
+                  <AnchorMax x="0.9803594" y="0.1208611"/>
+                  <Pivot x="0.5" y="0.5"/>
+                  <OffsetMin x="4.5" y="8.5"/>
+                  <OffsetMax x="3.5" y="6.5"/>
+                  <Rot x="0.0" y="0.0" z="0.0"/>
+                  <Scale x="1.0" y="1.0" z="1.0"/>
+                </InitObj>
+                <InitObj ID="9" Name="Map" Desc="Map" Anim="null">
+                  <AnchorMin x="0.9382969" y="0.1794722"/>
+                  <AnchorMax x="0.9803594" y="0.2601667"/>
+                  <Pivot x="0.5" y="0.5"/>
+                  <OffsetMin x="4" y="3.5"/>
+                  <OffsetMax x="-4.0" y="-3.5"/>
+                  <Rot x="0.0" y="0.0" z="0.0"/>
+                  <Scale x="1.0" y="1.0" z="1.0"/>
+                </InitObj>
+              </InitObjList>
+            </Canvas>
+            <Canvas ID="1">
+              <InitObjList>
+                <InitObj ID="0" Name="BackGround" Desc="배경" Anim="null">
+                  <AnchorMin x="0.0" y="0.0"/>
+                  <AnchorMax x="1.0" y="1.0"/>
+                  <Pivot x="0.5" y="0.5"/>
+                  <OffsetMin x="0.0" y="0.0"/>
+                  <OffsetMax x="0.0" y="0.0"/>
+                  <Rot x="0.0" y="0.0" z="0.0"/>
+                  <Scale x="1.0" y="1.0" z="1.0"/>
+                </InitObj>
+              </InitObjList>
+            </Canvas>
+          </ObjType2D>
+        </InitObjList>
+        <Text>능허대에 대해 살펴볼까요?</Text>
+      </InitEvent>            
+      <InitEvent ID="3">
+        <InitCharList>
+          <CharType2D>
+            <Canvas ID="0">
+              <InitCharList>
+                <InitChar ID="0" Name="CH_04" Desc="해설" Anim="Idle">
+                  <AnchorMin x="0.7647344" y="0.2833334"/>
+                  <AnchorMax x="0.9881719" y="0.733"/>
+                  <Pivot x="0.5" y="0.5"/>
+                  <OffsetMin x="-932.5" y="-573.5"/>
+                  <OffsetMax x="1051.5" y="218.5"/>
+                  <Rot x="0.0" y="0.0" z="0.0"/>
+                  <Scale x="1.0" y="1.0" z="1.0"/>
+                </InitChar>
+              </InitCharList>
+            </Canvas>
+          </CharType2D>
+        </InitCharList>
+        <InitObjList>
+          <ObjType2D>
+            <Canvas ID="0">
+              <InitObjList>
+                <InitObj ID="1" Name="TextBox" Desc="테스트_오브젝트1" Anim="null">
+                  <AnchorMin x="0.0" y="0.02147222"/>
+                  <AnchorMax x="0.9928594" y="0.2916111"/>
+                  <Pivot x="0.5" y="0.5"/>
+                  <OffsetMin x="36.5" y="15.0"/>
+                  <OffsetMax x="12.0" y="-12.0"/>
+                  <Rot x="0.0" y="0.0" z="0.0"/>
+                  <Scale x="1.0" y="1.0" z="1.0"/>
+                </InitObj>                                
+                <InitObj ID="2" Name="forward" Desc="다음 버튼" Anim="null">
+                  <AnchorMin x="0.9382969" y="0.036"/>
+                  <AnchorMax x="0.9803594" y="0.1208611"/>
+                  <Pivot x="0.5" y="0.5"/>
+                  <OffsetMin x="4.5" y="8.5"/>
+                  <OffsetMax x="3.5" y="6.5"/>
+                  <Rot x="0.0" y="0.0" z="0.0"/>
+                  <Scale x="1.0" y="1.0" z="1.0"/>
+                </InitObj>                
+              </InitObjList>
+            </Canvas>
+            <Canvas ID="1">
+              <InitObjList>
+                <InitObj ID="0" Name="BackGround" Desc="배경" Anim="null">
+                  <AnchorMin x="0.0" y="0.0"/>
+                  <AnchorMax x="1.0" y="1.0"/>
+                  <Pivot x="0.5" y="0.5"/>
+                  <OffsetMin x="0.0" y="0.0"/>
+                  <OffsetMax x="0.0" y="0.0"/>
+                  <Rot x="0.0" y="0.0" z="0.0"/>
+                  <Scale x="1.0" y="1.0" z="1.0"/>
+                </InitObj>
+              </InitObjList>
+            </Canvas>
+          </ObjType2D>
+        </InitObjList>
+        <Text>백제 시대의 능허대의 모습을 확인할 수 있습니다.</Text>
+      </InitEvent>                  
+      <InitEvent ID="4">
+        <InitCharList>
+          <CharType2D>
+            <Canvas ID="0">
+              <InitCharList>
+                <InitChar ID="0" Name="CH_04" Desc="해설" Anim="Idle">
+                  <AnchorMin x="0.7647344" y="0.2833334"/>
+                  <AnchorMax x="0.9881719" y="0.733"/>
+                  <Pivot x="0.5" y="0.5"/>
+                  <OffsetMin x="-932.5" y="-573.5"/>
+                  <OffsetMax x="1051.5" y="218.5"/>
+                  <Rot x="0.0" y="0.0" z="0.0"/>
+                  <Scale x="1.0" y="1.0" z="1.0"/>
+                </InitChar>
+              </InitCharList>
+            </Canvas>
+          </CharType2D>
+        </InitCharList>
+        <InitObjList>
+          <ObjType2D>
+            <Canvas ID="0">
+              <InitObjList>
+                <InitObj ID="1" Name="TextBox" Desc="테스트_오브젝트1" Anim="null">
+                  <AnchorMin x="0.0" y="0.02147222"/>
+                  <AnchorMax x="0.9928594" y="0.2916111"/>
+                  <Pivot x="0.5" y="0.5"/>
+                  <OffsetMin x="36.5" y="15.0"/>
+                  <OffsetMax x="12.0" y="-12.0"/>
+                  <Rot x="0.0" y="0.0" z="0.0"/>
+                  <Scale x="1.0" y="1.0" z="1.0"/>
+                </InitObj>
+                <InitObj ID="11" Name="ClipStart_PopUp" Desc="다음 버튼" Anim="null">
+                  <AnchorMin x="0.0" y="0.0"/>
+                  <AnchorMax x="1.0" y="1.0"/>
+                  <Pivot x="0.5" y="0.5"/>
+                  <OffsetMin x="700.0" y="650.0"/>
+                  <OffsetMax x="-800.0" y="-250.0"/>
+                  <Rot x="0.0" y="0.0" z="0.0"/>
+                  <Scale x="1.0" y="1.0" z="1.0"/>
+                </InitObj>               
+                <InitObj ID="9" Name="Map" Desc="Map" Anim="null">
+                  <AnchorMin x="0.9382969" y="0.1794722"/>
+                  <AnchorMax x="0.9803594" y="0.2601667"/>
+                  <Pivot x="0.5" y="0.5"/>
+                  <OffsetMin x="4" y="3.5"/>
+                  <OffsetMax x="-4.0" y="-3.5"/>
+                  <Rot x="0.0" y="0.0" z="0.0"/>
+                  <Scale x="1.0" y="1.0" z="1.0"/>
+                </InitObj>
+              </InitObjList>
+            </Canvas>
+            <Canvas ID="1">
+              <InitObjList>
+                <InitObj ID="0" Name="BackGround" Desc="배경" Anim="Idle">
+                  <AnchorMin x="0.0" y="0.0"/>
+                  <AnchorMax x="1.0" y="1.0"/>
+                  <Pivot x="0.5" y="0.5"/>
+                  <OffsetMin x="0.0" y="0.0"/>
+                  <OffsetMax x="0.0" y="0.0"/>
+                  <Rot x="0.0" y="0.0" z="0.0"/>
+                  <Scale x="1.0" y="1.0" z="1.0"/>
+                </InitObj>
+              </InitObjList>
+            </Canvas>
+          </ObjType2D>
+        </InitObjList>
+        <Text>백제 시대의 능허대를 구경하게 됩니다!</Text>
+      </InitEvent>           
+      <InitEvent ID="5">
+        <InitCharList>
+          <CharType2D>
+            <Canvas ID="0">
+              <InitCharList>
+                <InitChar ID="1" Name="CH_01" Desc="테스트용" Anim="Idle">
+                  <AnchorMin x="0.8" y="0.283"/>
+                  <AnchorMax x="1.0" y="0.66"/>
+                  <Pivot x="0.5" y="0.5"/>
+                  <OffsetMin x="-1050.0" y="410.5"/>
+                  <OffsetMax x="1000.0" y="-900.5"/>
+                  <Rot x="0.0" y="0.0" z="0.0"/>
+                  <Scale x="1.0" y="1.0" z="1.0"/>
+                </InitChar>
+                <InitChar ID="2" Name="CH_02" Desc="테스트용" Anim="Idle">
+                  <AnchorMin x="0.8145625" y="0.2833334"/>
+                  <AnchorMax x="1.0" y="0.66"/>
+                  <Pivot x="0.5" y="0.5"/>
+                  <OffsetMin x="-1124.0" y="184.0"/>
+                  <OffsetMax x="962.0" y="-1127.0"/>
+                  <Rot x="0.0" y="0.0" z="0.0"/>
+                  <Scale x="1.0" y="1.0" z="1.0"/>
+                </InitChar>
+              </InitCharList>
+            </Canvas>
+          </CharType2D>
+        </InitCharList>
+        <InitObjList>
+          <ObjType2D>
+            <Canvas ID="0">
+              <InitObjList>
+                <InitObj ID="1" Name="TextBox" Desc="테스트_오브젝트1" Anim="null">
+                  <AnchorMin x="0.0" y="0.02147222"/>
+                  <AnchorMax x="0.9928594" y="0.2916111"/>
+                  <Pivot x="0.5" y="0.5"/>
+                  <OffsetMin x="36.5" y="15.0"/>
+                  <OffsetMax x="12.0" y="-12.0"/>
+                  <Rot x="0.0" y="0.0" z="0.0"/>
+                  <Scale x="1.0" y="1.0" z="1.0"/>
+                </InitObj>
+                <InitObj ID="2" Name="forward" Desc="다음 버튼" Anim="null">
+                  <AnchorMin x="0.9382969" y="0.036"/>
+                  <AnchorMax x="0.9803594" y="0.1208611"/>
+                  <Pivot x="0.5" y="0.5"/>
+                  <OffsetMin x="4.5" y="8.5"/>
+                  <OffsetMax x="3.5" y="6.5"/>
+                  <Rot x="0.0" y="0.0" z="0.0"/>
+                  <Scale x="1.0" y="1.0" z="1.0"/>
+                </InitObj>
+                <InitObj ID="9" Name="Map" Desc="Map" Anim="null">
+                  <AnchorMin x="0.9382969" y="0.1794722"/>
+                  <AnchorMax x="0.9803594" y="0.2601667"/>
+                  <Pivot x="0.5" y="0.5"/>
+                  <OffsetMin x="4" y="3.5"/>
+                  <OffsetMax x="-4.0" y="-3.5"/>
+                  <Rot x="0.0" y="0.0" z="0.0"/>
+                  <Scale x="1.0" y="1.0" z="1.0"/>
+                </InitObj>
+              </InitObjList>
+            </Canvas>
+            <Canvas ID="1">
+              <InitObjList>
+                <InitObj ID="0" Name="BackGround" Desc="배경" Anim="null">
+                  <AnchorMin x="0.0" y="0.0"/>
+                  <AnchorMax x="1.0" y="1.0"/>
+                  <Pivot x="0.5" y="0.5"/>
+                  <OffsetMin x="0.0" y="0.0"/>
+                  <OffsetMax x="0.0" y="0.0"/>
+                  <Rot x="0.0" y="0.0" z="0.0"/>
+                  <Scale x="1.0" y="1.0" z="1.0"/>
+                </InitObj>
+              </InitObjList>
+            </Canvas>
+          </ObjType2D>
+        </InitObjList>
+        <Text>지금은 볼 수 없는 능허대의 모습을 직접 체험할 수 있는 기회야! 그런데 과거로 넘어오면서 몸이 무거워졌나? 아앗, 바지 주머니 속에 인삼 다섯 뿌리가 들어있네.</Text>
+      </InitEvent>
+      <InitEvent ID="6">
+        <InitCharList>
+          <CharType2D>
+            <Canvas ID="0">
+              <InitCharList>
+                <InitChar ID="0" Name="CH_04" Desc="해설" Anim="Idle">
+                  <AnchorMin x="0.7647344" y="0.2833334"/>
+                  <AnchorMax x="0.9881719" y="0.733"/>
+                  <Pivot x="0.5" y="0.5"/>
+                  <OffsetMin x="-932.5" y="-573.5"/>
+                  <OffsetMax x="1051.5" y="218.5"/>
+                  <Rot x="0.0" y="0.0" z="0.0"/>
+                  <Scale x="1.0" y="1.0" z="1.0"/>
+                </InitChar>
+              </InitCharList>
+            </Canvas>
+          </CharType2D>
+        </InitCharList>
+        <InitObjList>
+          <ObjType2D>
+            <Canvas ID="0">
+              <InitObjList>
+                <InitObj ID="1" Name="TextBox" Desc="테스트_오브젝트1" Anim="null">
+                  <AnchorMin x="0.0" y="0.02147222"/>
+                  <AnchorMax x="0.9928594" y="0.2916111"/>
+                  <Pivot x="0.5" y="0.5"/>
+                  <OffsetMin x="36.5" y="15.0"/>
+                  <OffsetMax x="12.0" y="-12.0"/>
+                  <Rot x="0.0" y="0.0" z="0.0"/>
+                  <Scale x="1.0" y="1.0" z="1.0"/>
+                </InitObj>
+                <InitObj ID="2" Name="forward" Desc="다음 버튼" Anim="null">
+                  <AnchorMin x="0.9382969" y="0.036"/>
+                  <AnchorMax x="0.9803594" y="0.1208611"/>
+                  <Pivot x="0.5" y="0.5"/>
+                  <OffsetMin x="4.5" y="8.5"/>
+                  <OffsetMax x="3.5" y="6.5"/>
+                  <Rot x="0.0" y="0.0" z="0.0"/>
+                  <Scale x="1.0" y="1.0" z="1.0"/>
+                </InitObj>
+                <InitObj ID="9" Name="Map" Desc="Map" Anim="null">
+                  <AnchorMin x="0.9382969" y="0.1794722"/>
+                  <AnchorMax x="0.9803594" y="0.2601667"/>
+                  <Pivot x="0.5" y="0.5"/>
+                  <OffsetMin x="4" y="3.5"/>
+                  <OffsetMax x="-4.0" y="-3.5"/>
+                  <Rot x="0.0" y="0.0" z="0.0"/>
+                  <Scale x="1.0" y="1.0" z="1.0"/>
+                </InitObj>
+              </InitObjList>
+            </Canvas>
+            <Canvas ID="1">
+              <InitObjList>
+                <InitObj ID="0" Name="BackGround" Desc="배경" Anim="null">
+                  <AnchorMin x="0.0" y="0.0"/>
+                  <AnchorMax x="1.0" y="1.0"/>
+                  <Pivot x="0.5" y="0.5"/>
+                  <OffsetMin x="0.0" y="0.0"/>
+                  <OffsetMax x="0.0" y="0.0"/>
+                  <Rot x="0.0" y="0.0" z="0.0"/>
+                  <Scale x="1.0" y="1.0" z="1.0"/>
+                </InitObj>
+              </InitObjList>
+            </Canvas>
+          </ObjType2D>
+        </InitObjList>
+        <Text>바닷가에서 거래 중인 백제인과 중국인을 살펴보고, 직접 거래에 참여해 봅시다.</Text>
+      </InitEvent>
+      <InitEvent ID="7">
+        <InitCharList>
+          <CharType2D>
+            <Canvas ID="0">
+              <InitCharList>
+                <InitChar ID="3" Name="CH_06" Desc="해설" Anim="null">
+                  <AnchorMin x="0.02" y="0.3"/>
+                  <AnchorMax x="0.23" y="0.73"/>
+                  <Pivot x="0.5" y="0.5"/>
+                  <OffsetMin x="-1038.5" y="-760.5"/>
+                  <OffsetMax x="979.5" y="59.5"/>
+                  <Rot x="0.0" y="0.0" z="0.0"/>
+                  <Scale x="2.0" y="2.0" z="2.0"/>
+                </InitChar>
+              </InitCharList>
+            </Canvas>
+          </CharType2D>
+        </InitCharList>
+        <InitObjList>
+          <ObjType2D>
+            <Canvas ID="0">
+              <InitObjList>
+                <InitObj ID="1" Name="TextBox" Desc="테스트_오브젝트1" Anim="null">
+                  <AnchorMin x="0.0" y="0.02147222"/>
+                  <AnchorMax x="0.9928594" y="0.2916111"/>
+                  <Pivot x="0.5" y="0.5"/>
+                  <OffsetMin x="36.5" y="15.0"/>
+                  <OffsetMax x="12.0" y="-12.0"/>
+                  <Rot x="0.0" y="0.0" z="0.0"/>
+                  <Scale x="1.0" y="1.0" z="1.0"/>
+                </InitObj>                
+                <InitObj ID="14" Name="Select_PopUp_3" Desc="다음 버튼" Anim="null">
+                  <AnchorMin x="0.0" y="0.0"/>
+                  <AnchorMax x="1.0" y="1.0"/>
+                  <Pivot x="0.5" y="0.5"/>
+                  <OffsetMin x="500.0" y="430.0"/>
+                  <OffsetMax x="-600.0" y="-150.0"/>
+                  <Rot x="0.0" y="0.0" z="0.0"/>
+                  <Scale x="1.0" y="1.0" z="1.0"/>
+                </InitObj>
+            
+              <!-- 추가-->
+            
+              </InitObjList>
+            </Canvas>
+            <Canvas ID="1">
+              <InitObjList>
+                <InitObj ID="0" Name="BackGround" Desc="배경" Anim="null">
+                  <AnchorMin x="0.0" y="0.0"/>
+                  <AnchorMax x="1.0" y="1.0"/>
+                  <Pivot x="0.5" y="0.5"/>
+                  <OffsetMin x="0.0" y="0.0"/>
+                  <OffsetMax x="0.0" y="0.0"/>
+                  <Rot x="0.0" y="0.0" z="0.0"/>
+                  <Scale x="1.0" y="1.0" z="1.0"/>
+                </InitObj>
+              </InitObjList>
+            </Canvas>
+          </ObjType2D>
+        </InitObjList>
+        <Text>니하오(안녕하세요)! 능허대에 왔다는 건, 거래를 하러 오신 거겠죠? 반갑습니다. 저는 중국의 각종 서적, 비단, 그리고 도자기를 가지고 왔습니다. 당신은 인삼을 많이 가지고 있는 것처럼 보이는군요. 중국에서 한반도 인삼의 인기가 좋습니다. 제가 가진 물품과 인삼을 교환하면 어떨까요?</Text>
+      </InitEvent>      
+      <InitEvent ID="8">
+        <InitCharList>
+          <CharType2D>
+            <Canvas ID="0">
+              <InitCharList>
+                <InitChar ID="3" Name="CH_06" Desc="해설" Anim="null">
+                  <AnchorMin x="0.02" y="0.3"/>
+                  <AnchorMax x="0.23" y="0.73"/>
+                  <Pivot x="0.5" y="0.5"/>
+                  <OffsetMin x="-1038.5" y="-760.5"/>
+                  <OffsetMax x="979.5" y="59.5"/>
+                  <Rot x="0.0" y="0.0" z="0.0"/>
+                  <Scale x="2.0" y="2.0" z="2.0"/>
+                </InitChar>
+              </InitCharList>
+            </Canvas>
+          </CharType2D>          
+        </InitCharList>
+        <InitObjList>
+          <ObjType2D>
+            <Canvas ID="0">
+              <InitObjList>
+                <InitObj ID="1" Name="TextBox" Desc="테스트_오브젝트1" Anim="null">
+                  <AnchorMin x="0.0" y="0.02147222"/>
+                  <AnchorMax x="0.9928594" y="0.2916111"/>
+                  <Pivot x="0.5" y="0.5"/>
+                  <OffsetMin x="36.5" y="15.0"/>
+                  <OffsetMax x="12.0" y="-12.0"/>
+                  <Rot x="0.0" y="0.0" z="0.0"/>
+                  <Scale x="1.0" y="1.0" z="1.0"/>
+                </InitObj>
+                <InitObj ID="2" Name="forward" Desc="다음 버튼" Anim="null">
+                  <AnchorMin x="0.9382969" y="0.036"/>
+                  <AnchorMax x="0.9803594" y="0.1208611"/>
+                  <Pivot x="0.5" y="0.5"/>
+                  <OffsetMin x="4.5" y="8.5"/>
+                  <OffsetMax x="3.5" y="6.5"/>
+                  <Rot x="0.0" y="0.0" z="0.0"/>
+                  <Scale x="1.0" y="1.0" z="1.0"/>
+                </InitObj>
+                <InitObj ID="9" Name="Map" Desc="Map" Anim="null">
+                  <AnchorMin x="0.9382969" y="0.1794722"/>
+                  <AnchorMax x="0.9803594" y="0.2601667"/>
+                  <Pivot x="0.5" y="0.5"/>
+                  <OffsetMin x="4" y="3.5"/>
+                  <OffsetMax x="-4.0" y="-3.5"/>
+                  <Rot x="0.0" y="0.0" z="0.0"/>
+                  <Scale x="1.0" y="1.0" z="1.0"/>
+                </InitObj>
+              </InitObjList>
+            </Canvas>
+            <Canvas ID="1">
+              <InitObjList>
+                <InitObj ID="0" Name="BackGround" Desc="배경" Anim="null">
+                  <AnchorMin x="0.0" y="0.0"/>
+                  <AnchorMax x="1.0" y="1.0"/>
+                  <Pivot x="0.5" y="0.5"/>
+                  <OffsetMin x="0.0" y="0.0"/>
+                  <OffsetMax x="0.0" y="0.0"/>
+                  <Rot x="0.0" y="0.0" z="0.0"/>
+                  <Scale x="1.0" y="1.0" z="1.0"/>
+                </InitObj>
+              </InitObjList>
+            </Canvas>
+          </ObjType2D>          
+        </InitObjList>
+        <Text>이 서적은 중국 어린 학생들의 필독서이지요. 보통 서적 열 권에 인삼 한 뿌리로 거래하니, 서적 50권에 인삼 다섯 뿌리로 교환합시다!</Text>
+      </InitEvent>      
+      <InitEvent ID="9">
+        <InitCharList>
+          <CharType2D>
+            <Canvas ID="0">
+              <InitCharList>
+                <InitChar ID="1" Name="CH_01" Desc="테스트용" Anim="Idle">
+                  <AnchorMin x="0.8" y="0.283"/>
+                  <AnchorMax x="1.0" y="0.66"/>
+                  <Pivot x="0.5" y="0.5"/>
+                  <OffsetMin x="-1050.0" y="410.5"/>
+                  <OffsetMax x="1000.0" y="-900.5"/>
+                  <Rot x="0.0" y="0.0" z="0.0"/>
+                  <Scale x="1.0" y="1.0" z="1.0"/>
+                </InitChar>
+                <InitChar ID="2" Name="CH_02" Desc="테스트용" Anim="Idle">
+                  <AnchorMin x="0.8145625" y="0.2833334"/>
+                  <AnchorMax x="1.0" y="0.66"/>
+                  <Pivot x="0.5" y="0.5"/>
+                  <OffsetMin x="-1124.0" y="184.0"/>
+                  <OffsetMax x="962.0" y="-1127.0"/>
+                  <Rot x="0.0" y="0.0" z="0.0"/>
+                  <Scale x="1.0" y="1.0" z="1.0"/>
+                </InitChar>
+              </InitCharList>
+            </Canvas>
+          </CharType2D>
+        </InitCharList>
+        <InitObjList>
+          <ObjType2D>
+            <Canvas ID="0">
+              <InitObjList>
+                <InitObj ID="1" Name="TextBox" Desc="테스트_오브젝트1" Anim="null">
+                  <AnchorMin x="0.0" y="0.02147222"/>
+                  <AnchorMax x="0.9928594" y="0.2916111"/>
+                  <Pivot x="0.5" y="0.5"/>
+                  <OffsetMin x="36.5" y="15.0"/>
+                  <OffsetMax x="12.0" y="-12.0"/>
+                  <Rot x="0.0" y="0.0" z="0.0"/>
+                  <Scale x="1.0" y="1.0" z="1.0"/>
+                </InitObj>               
+                <InitObj ID="14" Name="Select_PopUp_3" Desc="다음 버튼" Anim="null">
+                  <AnchorMin x="0.0" y="0.0"/>
+                  <AnchorMax x="1.0" y="1.0"/>
+                  <Pivot x="0.5" y="0.5"/>
+                  <OffsetMin x="500.0" y="430.0"/>
+                  <OffsetMax x="-600.0" y="-150.0"/>
+                  <Rot x="0.0" y="0.0" z="0.0"/>
+                  <Scale x="1.0" y="1.0" z="1.0"/>
+                </InitObj>            
+              </InitObjList>
+            </Canvas>
+            <Canvas ID="1">
+              <InitObjList>
+                <InitObj ID="0" Name="BackGround" Desc="배경" Anim="null">
+                  <AnchorMin x="0.0" y="0.0"/>
+                  <AnchorMax x="1.0" y="1.0"/>
+                  <Pivot x="0.5" y="0.5"/>
+                  <OffsetMin x="0.0" y="0.0"/>
+                  <OffsetMax x="0.0" y="0.0"/>
+                  <Rot x="0.0" y="0.0" z="0.0"/>
+                  <Scale x="1.0" y="1.0" z="1.0"/>
+                </InitObj>
+              </InitObjList>
+            </Canvas>
+          </ObjType2D>
+        </InitObjList>
+        <Text>제가 가진 물품과 인삼을 교환하면 어떨까요?</Text>
+      </InitEvent>      
+      <InitEvent ID="10">
+        <InitCharList>
+          <CharType2D>
+            <Canvas ID="0">
+              <InitCharList>
+                <InitChar ID="3" Name="CH_06" Desc="해설" Anim="null">
+                  <AnchorMin x="0.02" y="0.3"/>
+                  <AnchorMax x="0.23" y="0.73"/>
+                  <Pivot x="0.5" y="0.5"/>
+                  <OffsetMin x="-1038.5" y="-760.5"/>
+                  <OffsetMax x="979.5" y="59.5"/>
+                  <Rot x="0.0" y="0.0" z="0.0"/>
+                  <Scale x="2.0" y="2.0" z="2.0"/>
+                </InitChar>
+              </InitCharList>
+            </Canvas>
+          </CharType2D>
+        </InitCharList>
+        <InitObjList>
+          <ObjType2D>
+            <Canvas ID="0">
+              <InitObjList>
+                <InitObj ID="1" Name="TextBox" Desc="테스트_오브젝트1" Anim="null">
+                  <AnchorMin x="0.0" y="0.02147222"/>
+                  <AnchorMax x="0.9928594" y="0.2916111"/>
+                  <Pivot x="0.5" y="0.5"/>
+                  <OffsetMin x="36.5" y="15.0"/>
+                  <OffsetMax x="12.0" y="-12.0"/>
+                  <Rot x="0.0" y="0.0" z="0.0"/>
+                  <Scale x="1.0" y="1.0" z="1.0"/>
+                </InitObj>
+                <InitObj ID="2" Name="forward" Desc="다음 버튼" Anim="null">
+                  <AnchorMin x="0.9382969" y="0.036"/>
+                  <AnchorMax x="0.9803594" y="0.1208611"/>
+                  <Pivot x="0.5" y="0.5"/>
+                  <OffsetMin x="4.5" y="8.5"/>
+                  <OffsetMax x="3.5" y="6.5"/>
+                  <Rot x="0.0" y="0.0" z="0.0"/>
+                  <Scale x="1.0" y="1.0" z="1.0"/>
+                </InitObj>
+                <InitObj ID="9" Name="Map" Desc="Map" Anim="null">
+                  <AnchorMin x="0.9382969" y="0.1794722"/>
+                  <AnchorMax x="0.9803594" y="0.2601667"/>
+                  <Pivot x="0.5" y="0.5"/>
+                  <OffsetMin x="4" y="3.5"/>
+                  <OffsetMax x="-4.0" y="-3.5"/>
+                  <Rot x="0.0" y="0.0" z="0.0"/>
+                  <Scale x="1.0" y="1.0" z="1.0"/>
+                </InitObj>
+              </InitObjList>
+            </Canvas>
+            <Canvas ID="1">
+              <InitObjList>
+                <InitObj ID="0" Name="BackGround" Desc="배경" Anim="null">
+                  <AnchorMin x="0.0" y="0.0"/>
+                  <AnchorMax x="1.0" y="1.0"/>
+                  <Pivot x="0.5" y="0.5"/>
+                  <OffsetMin x="0.0" y="0.0"/>
+                  <OffsetMax x="0.0" y="0.0"/>
+                  <Rot x="0.0" y="0.0" z="0.0"/>
+                  <Scale x="1.0" y="1.0" z="1.0"/>
+                </InitObj>
+              </InitObjList>
+            </Canvas>
+          </ObjType2D>
+        </InitObjList>
+        <Text>이 비단은 결이 고와 부드럽습니다. 특상품 중의 특상품이지요! 보통 비단 한 단에 인삼 다섯 뿌리로 거래를 하니.. 비단 한 단에 인삼 다섯 뿌리로 교환하면 어떻겠소?</Text>
+      </InitEvent>      
+      <InitEvent ID="11">
+        <InitCharList>
+          <CharType2D>
+            <Canvas ID="0">
+              <InitCharList>
+                <InitChar ID="1" Name="CH_01" Desc="테스트용" Anim="Idle">
+                  <AnchorMin x="0.8" y="0.283"/>
+                  <AnchorMax x="1.0" y="0.66"/>
+                  <Pivot x="0.5" y="0.5"/>
+                  <OffsetMin x="-1050.0" y="410.5"/>
+                  <OffsetMax x="1000.0" y="-900.5"/>
+                  <Rot x="0.0" y="0.0" z="0.0"/>
+                  <Scale x="1.0" y="1.0" z="1.0"/>
+                </InitChar>
+                <InitChar ID="2" Name="CH_02" Desc="테스트용" Anim="Idle">
+                  <AnchorMin x="0.8145625" y="0.2833334"/>
+                  <AnchorMax x="1.0" y="0.66"/>
+                  <Pivot x="0.5" y="0.5"/>
+                  <OffsetMin x="-1124.0" y="184.0"/>
+                  <OffsetMax x="962.0" y="-1127.0"/>
+                  <Rot x="0.0" y="0.0" z="0.0"/>
+                  <Scale x="1.0" y="1.0" z="1.0"/>
+                </InitChar>
+              </InitCharList>
+            </Canvas>
+          </CharType2D>
+        </InitCharList>
+        <InitObjList>
+          <ObjType2D>
+            <Canvas ID="0">
+              <InitObjList>
+                <InitObj ID="1" Name="TextBox" Desc="테스트_오브젝트1" Anim="null">
+                  <AnchorMin x="0.0" y="0.02147222"/>
+                  <AnchorMax x="0.9928594" y="0.2916111"/>
+                  <Pivot x="0.5" y="0.5"/>
+                  <OffsetMin x="36.5" y="15.0"/>
+                  <OffsetMax x="12.0" y="-12.0"/>
+                  <Rot x="0.0" y="0.0" z="0.0"/>
+                  <Scale x="1.0" y="1.0" z="1.0"/>
+                </InitObj>               
+                <InitObj ID="14" Name="Select_PopUp_3" Desc="다음 버튼" Anim="null">
+                  <AnchorMin x="0.0" y="0.0"/>
+                  <AnchorMax x="1.0" y="1.0"/>
+                  <Pivot x="0.5" y="0.5"/>
+                  <OffsetMin x="500.0" y="430.0"/>
+                  <OffsetMax x="-600.0" y="-150.0"/>
+                  <Rot x="0.0" y="0.0" z="0.0"/>
+                  <Scale x="1.0" y="1.0" z="1.0"/>
+                </InitObj>
+              </InitObjList>
+            </Canvas>
+            <Canvas ID="1">
+              <InitObjList>
+                <InitObj ID="0" Name="BackGround" Desc="배경" Anim="null">
+                  <AnchorMin x="0.0" y="0.0"/>
+                  <AnchorMax x="1.0" y="1.0"/>
+                  <Pivot x="0.5" y="0.5"/>
+                  <OffsetMin x="0.0" y="0.0"/>
+                  <OffsetMax x="0.0" y="0.0"/>
+                  <Rot x="0.0" y="0.0" z="0.0"/>
+                  <Scale x="1.0" y="1.0" z="1.0"/>
+                </InitObj>
+              </InitObjList>
+            </Canvas>
+          </ObjType2D>
+        </InitObjList>
+        <Text>제가 가진 물품과 인삼을 교환하면 어떨까요?</Text>
+      </InitEvent>
+      <InitEvent ID="12">
+        <InitCharList>
+          <CharType2D>
+            <Canvas ID="0">
+              <InitCharList>
+                <InitChar ID="3" Name="CH_06" Desc="해설" Anim="null">
+                  <AnchorMin x="0.02" y="0.3"/>
+                  <AnchorMax x="0.23" y="0.73"/>
+                  <Pivot x="0.5" y="0.5"/>
+                  <OffsetMin x="-1038.5" y="-760.5"/>
+                  <OffsetMax x="979.5" y="59.5"/>
+                  <Rot x="0.0" y="0.0" z="0.0"/>
+                  <Scale x="2.0" y="2.0" z="2.0"/>
+                </InitChar>
+              </InitCharList>
+            </Canvas>
+          </CharType2D>         
+        </InitCharList>
+        <InitObjList>
+          <ObjType2D>
+            <Canvas ID="0">
+              <InitObjList>
+                <InitObj ID="1" Name="TextBox" Desc="테스트_오브젝트1" Anim="null">
+                  <AnchorMin x="0.0" y="0.02147222"/>
+                  <AnchorMax x="0.9928594" y="0.2916111"/>
+                  <Pivot x="0.5" y="0.5"/>
+                  <OffsetMin x="36.5" y="15.0"/>
+                  <OffsetMax x="12.0" y="-12.0"/>
+                  <Rot x="0.0" y="0.0" z="0.0"/>
+                  <Scale x="1.0" y="1.0" z="1.0"/>
+                </InitObj>
+                <InitObj ID="2" Name="forward" Desc="다음 버튼" Anim="null">
+                  <AnchorMin x="0.9382969" y="0.036"/>
+                  <AnchorMax x="0.9803594" y="0.1208611"/>
+                  <Pivot x="0.5" y="0.5"/>
+                  <OffsetMin x="4.5" y="8.5"/>
+                  <OffsetMax x="3.5" y="6.5"/>
+                  <Rot x="0.0" y="0.0" z="0.0"/>
+                  <Scale x="1.0" y="1.0" z="1.0"/>
+                </InitObj>
+                <InitObj ID="9" Name="Map" Desc="Map" Anim="null">
+                  <AnchorMin x="0.9382969" y="0.1794722"/>
+                  <AnchorMax x="0.9803594" y="0.2601667"/>
+                  <Pivot x="0.5" y="0.5"/>
+                  <OffsetMin x="4" y="3.5"/>
+                  <OffsetMax x="-4.0" y="-3.5"/>
+                  <Rot x="0.0" y="0.0" z="0.0"/>
+                  <Scale x="1.0" y="1.0" z="1.0"/>
+                </InitObj>
+              </InitObjList>
+            </Canvas>
+            <Canvas ID="1">
+              <InitObjList>
+                <InitObj ID="0" Name="BackGround" Desc="배경" Anim="null">
+                  <AnchorMin x="0.0" y="0.0"/>
+                  <AnchorMax x="1.0" y="1.0"/>
+                  <Pivot x="0.5" y="0.5"/>
+                  <OffsetMin x="0.0" y="0.0"/>
+                  <OffsetMax x="0.0" y="0.0"/>
+                  <Rot x="0.0" y="0.0" z="0.0"/>
+                  <Scale x="1.0" y="1.0" z="1.0"/>
+                </InitObj>
+              </InitObjList>
+            </Canvas>
+          </ObjType2D>          
+        </InitObjList>
+        <Text>이 도자기는 중국의 제일가는 장인이 빚은 것입니다. 궁중에 들여도 부족함이 없을 솜씨죠. 이 장인의 작품은 하나에 인삼 다섯 뿌리로 거래되니, 도자기 한 점과 인삼 다섯 뿌리를 교환하는 건 어떻겠소?</Text>
+      </InitEvent>      
+      <InitEvent ID="13">
+        <InitCharList>
+          <CharType2D>
+            <Canvas ID="0">
+              <InitCharList>
+                <InitChar ID="1" Name="CH_01" Desc="테스트용" Anim="Idle">
+                  <AnchorMin x="0.8" y="0.283"/>
+                  <AnchorMax x="1.0" y="0.66"/>
+                  <Pivot x="0.5" y="0.5"/>
+                  <OffsetMin x="-1050.0" y="410.5"/>
+                  <OffsetMax x="1000.0" y="-900.5"/>
+                  <Rot x="0.0" y="0.0" z="0.0"/>
+                  <Scale x="1.0" y="1.0" z="1.0"/>
+                </InitChar>
+                <InitChar ID="2" Name="CH_02" Desc="테스트용" Anim="Idle">
+                  <AnchorMin x="0.8145625" y="0.2833334"/>
+                  <AnchorMax x="1.0" y="0.66"/>
+                  <Pivot x="0.5" y="0.5"/>
+                  <OffsetMin x="-1124.0" y="184.0"/>
+                  <OffsetMax x="962.0" y="-1127.0"/>
+                  <Rot x="0.0" y="0.0" z="0.0"/>
+                  <Scale x="1.0" y="1.0" z="1.0"/>
+                </InitChar>
+              </InitCharList>
+            </Canvas>
+          </CharType2D>
+        </InitCharList>
+        <InitObjList>
+          <ObjType2D>
+            <Canvas ID="0">
+              <InitObjList>
+                <InitObj ID="1" Name="TextBox" Desc="테스트_오브젝트1" Anim="null">
+                  <AnchorMin x="0.0" y="0.02147222"/>
+                  <AnchorMax x="0.9928594" y="0.2916111"/>
+                  <Pivot x="0.5" y="0.5"/>
+                  <OffsetMin x="36.5" y="15.0"/>
+                  <OffsetMax x="12.0" y="-12.0"/>
+                  <Rot x="0.0" y="0.0" z="0.0"/>
+                  <Scale x="1.0" y="1.0" z="1.0"/>
+                </InitObj>
+                <InitObj ID="2" Name="forward" Desc="다음 버튼" Anim="null">
+                  <AnchorMin x="0.9382969" y="0.036"/>
+                  <AnchorMax x="0.9803594" y="0.1208611"/>
+                  <Pivot x="0.5" y="0.5"/>
+                  <OffsetMin x="4.5" y="8.5"/>
+                  <OffsetMax x="3.5" y="6.5"/>
+                  <Rot x="0.0" y="0.0" z="0.0"/>
+                  <Scale x="1.0" y="1.0" z="1.0"/>
+                </InitObj>
+                <InitObj ID="9" Name="Map" Desc="Map" Anim="null">
+                  <AnchorMin x="0.9382969" y="0.1794722"/>
+                  <AnchorMax x="0.9803594" y="0.2601667"/>
+                  <Pivot x="0.5" y="0.5"/>
+                  <OffsetMin x="4" y="3.5"/>
+                  <OffsetMax x="-4.0" y="-3.5"/>
+                  <Rot x="0.0" y="0.0" z="0.0"/>
+                  <Scale x="1.0" y="1.0" z="1.0"/>
+                </InitObj>
+              </InitObjList>
+            </Canvas>
+            <Canvas ID="1">
+              <InitObjList>
+                <InitObj ID="0" Name="BackGround" Desc="배경" Anim="null">
+                  <AnchorMin x="0.0" y="0.0"/>
+                  <AnchorMax x="1.0" y="1.0"/>
+                  <Pivot x="0.5" y="0.5"/>
+                  <OffsetMin x="0.0" y="0.0"/>
+                  <OffsetMax x="0.0" y="0.0"/>
+                  <Rot x="0.0" y="0.0" z="0.0"/>
+                  <Scale x="1.0" y="1.0" z="1.0"/>
+                </InitObj>
+              </InitObjList>
+            </Canvas>
+          </ObjType2D>
+        </InitObjList>
+        <Text>물건의 가치가 화폐 단위로 매겨지지 않았군요. 그럼 제가 바로 인삼을 드리면 되는 겁니까?</Text>
+      </InitEvent>      
+      <InitEvent ID="14">
+        <InitCharList>
+          <CharType2D>
+            <Canvas ID="0">
+              <InitCharList>
+                <InitChar ID="3" Name="CH_06" Desc="해설" Anim="null">
+                  <AnchorMin x="0.02" y="0.3"/>
+                  <AnchorMax x="0.23" y="0.73"/>
+                  <Pivot x="0.5" y="0.5"/>
+                  <OffsetMin x="-1038.5" y="-760.5"/>
+                  <OffsetMax x="979.5" y="59.5"/>
+                  <Rot x="0.0" y="0.0" z="0.0"/>
+                  <Scale x="2.0" y="2.0" z="2.0"/>
+                </InitChar>
+              </InitCharList>
+            </Canvas>
+          </CharType2D>
+        </InitCharList>
+        <InitObjList>
+          <ObjType2D>
+            <Canvas ID="0">
+              <InitObjList>
+                <InitObj ID="1" Name="TextBox" Desc="테스트_오브젝트1" Anim="null">
+                  <AnchorMin x="0.0" y="0.02147222"/>
+                  <AnchorMax x="0.9928594" y="0.2916111"/>
+                  <Pivot x="0.5" y="0.5"/>
+                  <OffsetMin x="36.5" y="15.0"/>
+                  <OffsetMax x="12.0" y="-12.0"/>
+                  <Rot x="0.0" y="0.0" z="0.0"/>
+                  <Scale x="1.0" y="1.0" z="1.0"/>
+                </InitObj>
+                <InitObj ID="2" Name="forward" Desc="다음 버튼" Anim="null">
+                  <AnchorMin x="0.9382969" y="0.036"/>
+                  <AnchorMax x="0.9803594" y="0.1208611"/>
+                  <Pivot x="0.5" y="0.5"/>
+                  <OffsetMin x="4.5" y="8.5"/>
+                  <OffsetMax x="3.5" y="6.5"/>
+                  <Rot x="0.0" y="0.0" z="0.0"/>
+                  <Scale x="1.0" y="1.0" z="1.0"/>
+                </InitObj>
+                <InitObj ID="9" Name="Map" Desc="Map" Anim="null">
+                  <AnchorMin x="0.9382969" y="0.1794722"/>
+                  <AnchorMax x="0.9803594" y="0.2601667"/>
+                  <Pivot x="0.5" y="0.5"/>
+                  <OffsetMin x="4" y="3.5"/>
+                  <OffsetMax x="-4.0" y="-3.5"/>
+                  <Rot x="0.0" y="0.0" z="0.0"/>
+                  <Scale x="1.0" y="1.0" z="1.0"/>
+                </InitObj>
+              </InitObjList>
+            </Canvas>
+            <Canvas ID="1">
+              <InitObjList>
+                <InitObj ID="0" Name="BackGround" Desc="배경" Anim="null">
+                  <AnchorMin x="0.0" y="0.0"/>
+                  <AnchorMax x="1.0" y="1.0"/>
+                  <Pivot x="0.5" y="0.5"/>
+                  <OffsetMin x="0.0" y="0.0"/>
+                  <OffsetMax x="0.0" y="0.0"/>
+                  <Rot x="0.0" y="0.0" z="0.0"/>
+                  <Scale x="1.0" y="1.0" z="1.0"/>
+                </InitObj>               
+              </InitObjList>
+            </Canvas>
+          </ObjType2D>
+        </InitObjList>
+        <Text>그렇습니다. 화폐로 물건을 거래하는 것을 본 적이 드뭅니다. 한반도 인삼의 품질은 정평이 나 있으니, 기준으로 삼고 거래하는 것이지요. 인삼이 아니라 삼베와 같은 직물을 가져오셨다면, 삼베로 거래를 했을 것입니다.</Text>
+      </InitEvent>      
+      <InitEvent ID="15">
+        <InitCharList>
+          <CharType2D>
+            <Canvas ID="0">
+              <InitCharList>
+                <InitChar ID="1" Name="CH_01" Desc="테스트용" Anim="Idle">
+                  <AnchorMin x="0.8" y="0.283"/>
+                  <AnchorMax x="1.0" y="0.66"/>
+                  <Pivot x="0.5" y="0.5"/>
+                  <OffsetMin x="-1050.0" y="410.5"/>
+                  <OffsetMax x="1000.0" y="-900.5"/>
+                  <Rot x="0.0" y="0.0" z="0.0"/>
+                  <Scale x="1.0" y="1.0" z="1.0"/>
+                </InitChar>
+                <InitChar ID="2" Name="CH_02" Desc="테스트용" Anim="Idle">
+                  <AnchorMin x="0.8145625" y="0.2833334"/>
+                  <AnchorMax x="1.0" y="0.66"/>
+                  <Pivot x="0.5" y="0.5"/>
+                  <OffsetMin x="-1124.0" y="184.0"/>
+                  <OffsetMax x="962.0" y="-1127.0"/>
+                  <Rot x="0.0" y="0.0" z="0.0"/>
+                  <Scale x="1.0" y="1.0" z="1.0"/>
+                </InitChar>
+              </InitCharList>
+            </Canvas>
+          </CharType2D>          
+        </InitCharList>
+        <InitObjList>
+          <ObjType2D>
+            <Canvas ID="0">
+              <InitObjList>
+                <InitObj ID="1" Name="TextBox" Desc="테스트_오브젝트1" Anim="null">
+                  <AnchorMin x="0.0" y="0.02147222"/>
+                  <AnchorMax x="0.9928594" y="0.2916111"/>
+                  <Pivot x="0.5" y="0.5"/>
+                  <OffsetMin x="36.5" y="15.0"/>
+                  <OffsetMax x="12.0" y="-12.0"/>
+                  <Rot x="0.0" y="0.0" z="0.0"/>
+                  <Scale x="1.0" y="1.0" z="1.0"/>
+                </InitObj>                
+                <InitObj ID="12" Name="Confirm_PopUp_1" Desc="다음 버튼" Anim="null">
+                  <AnchorMin x="0.0" y="0.0"/>
+                  <AnchorMax x="1.0" y="1.0"/>
+                  <Pivot x="0.5" y="0.5"/>
+                  <OffsetMin x="500.0" y="460.0"/>
+                  <OffsetMax x="-600.0" y="-160.0"/>
+                  <Rot x="0.0" y="0.0" z="0.0"/>
+                  <Scale x="1.0" y="1.0" z="1.0"/>
+                </InitObj>              
+              </InitObjList>
+            </Canvas>
+            <Canvas ID="1">
+              <InitObjList>
+                <InitObj ID="0" Name="BackGround" Desc="배경" Anim="null">
+                  <AnchorMin x="0.0" y="0.0"/>
+                  <AnchorMax x="1.0" y="1.0"/>
+                  <Pivot x="0.5" y="0.5"/>
+                  <OffsetMin x="0.0" y="0.0"/>
+                  <OffsetMax x="0.0" y="0.0"/>
+                  <Rot x="0.0" y="0.0" z="0.0"/>
+                  <Scale x="1.0" y="1.0" z="1.0"/>
+                </InitObj>               
+              </InitObjList>
+            </Canvas>
+          </ObjType2D>
+        </InitObjList>
+        <Text>그렇군요. 여기 백제 인삼 다섯 뿌리 있습니다.</Text>
+      </InitEvent>      
+      <InitEvent ID="16">
+        <InitCharList>
+          <CharType2D>
+            <Canvas ID="0">
+              <InitCharList>
+                <InitChar ID="3" Name="CH_06" Desc="해설" Anim="null">
+                  <AnchorMin x="0.02" y="0.3"/>
+                  <AnchorMax x="0.23" y="0.73"/>
+                  <Pivot x="0.5" y="0.5"/>
+                  <OffsetMin x="-1038.5" y="-760.5"/>
+                  <OffsetMax x="979.5" y="59.5"/>
+                  <Rot x="0.0" y="0.0" z="0.0"/>
+                  <Scale x="2.0" y="2.0" z="2.0"/>
+                </InitChar>
+              </InitCharList>
+            </Canvas>
+          </CharType2D>
+        </InitCharList>
+        <InitObjList>
+          <ObjType2D>
+            <Canvas ID="0">
+              <InitObjList>
+                <InitObj ID="1" Name="TextBox" Desc="테스트_오브젝트1" Anim="null">
+                  <AnchorMin x="0.0" y="0.02147222"/>
+                  <AnchorMax x="0.9928594" y="0.2916111"/>
+                  <Pivot x="0.5" y="0.5"/>
+                  <OffsetMin x="36.5" y="15.0"/>
+                  <OffsetMax x="12.0" y="-12.0"/>
+                  <Rot x="0.0" y="0.0" z="0.0"/>
+                  <Scale x="1.0" y="1.0" z="1.0"/>
+                </InitObj>
+                <InitObj ID="2" Name="forward" Desc="다음 버튼" Anim="null">
+                  <AnchorMin x="0.9382969" y="0.036"/>
+                  <AnchorMax x="0.9803594" y="0.1208611"/>
+                  <Pivot x="0.5" y="0.5"/>
+                  <OffsetMin x="4.5" y="8.5"/>
+                  <OffsetMax x="3.5" y="6.5"/>
+                  <Rot x="0.0" y="0.0" z="0.0"/>
+                  <Scale x="1.0" y="1.0" z="1.0"/>
+                </InitObj>
+                <InitObj ID="9" Name="Map" Desc="Map" Anim="null">
+                  <AnchorMin x="0.9382969" y="0.1794722"/>
+                  <AnchorMax x="0.9803594" y="0.2601667"/>
+                  <Pivot x="0.5" y="0.5"/>
+                  <OffsetMin x="4" y="3.5"/>
+                  <OffsetMax x="-4.0" y="-3.5"/>
+                  <Rot x="0.0" y="0.0" z="0.0"/>
+                  <Scale x="1.0" y="1.0" z="1.0"/>
+                </InitObj>
+              </InitObjList>
+            </Canvas>
+            <Canvas ID="1">
+              <InitObjList>
+                <InitObj ID="0" Name="BackGround" Desc="배경" Anim="null">
+                  <AnchorMin x="0.0" y="0.0"/>
+                  <AnchorMax x="1.0" y="1.0"/>
+                  <Pivot x="0.5" y="0.5"/>
+                  <OffsetMin x="0.0" y="0.0"/>
+                  <OffsetMax x="0.0" y="0.0"/>
+                  <Rot x="0.0" y="0.0" z="0.0"/>
+                  <Scale x="1.0" y="1.0" z="1.0"/>
+                </InitObj>               
+              </InitObjList>
+            </Canvas>
+          </ObjType2D>
+        </InitObjList>
+        <Text>거래가 성사되었군요. 다음에 또 뵙지요!</Text>
+      </InitEvent>                  
+      <InitEvent ID="17">
+        <InitCharList>
+          <CharType2D>
+            <Canvas ID="0">
+              <InitCharList>
+                <InitChar ID="1" Name="CH_01" Desc="테스트용" Anim="Idle">
+                  <AnchorMin x="0.8" y="0.283"/>
+                  <AnchorMax x="1.0" y="0.66"/>
+                  <Pivot x="0.5" y="0.5"/>
+                  <OffsetMin x="-1050.0" y="410.5"/>
+                  <OffsetMax x="1000.0" y="-900.5"/>
+                  <Rot x="0.0" y="0.0" z="0.0"/>
+                  <Scale x="1.0" y="1.0" z="1.0"/>
+                </InitChar>
+                <InitChar ID="2" Name="CH_02" Desc="테스트용" Anim="Idle">
+                  <AnchorMin x="0.8145625" y="0.2833334"/>
+                  <AnchorMax x="1.0" y="0.66"/>
+                  <Pivot x="0.5" y="0.5"/>
+                  <OffsetMin x="-1124.0" y="184.0"/>
+                  <OffsetMax x="962.0" y="-1127.0"/>
+                  <Rot x="0.0" y="0.0" z="0.0"/>
+                  <Scale x="1.0" y="1.0" z="1.0"/>
+                </InitChar>
+              </InitCharList>
+            </Canvas>
+          </CharType2D>
+        </InitCharList>
+        <InitObjList>
+          <ObjType2D>
+            <Canvas ID="0">
+              <InitObjList>
+                <InitObj ID="1" Name="TextBox" Desc="테스트_오브젝트1" Anim="null">
+                  <AnchorMin x="0.0" y="0.02147222"/>
+                  <AnchorMax x="0.9928594" y="0.2916111"/>
+                  <Pivot x="0.5" y="0.5"/>
+                  <OffsetMin x="36.5" y="15.0"/>
+                  <OffsetMax x="12.0" y="-12.0"/>
+                  <Rot x="0.0" y="0.0" z="0.0"/>
+                  <Scale x="1.0" y="1.0" z="1.0"/>
+                </InitObj>
+                <InitObj ID="2" Name="forward" Desc="다음 버튼" Anim="null">
+                  <AnchorMin x="0.9382969" y="0.036"/>
+                  <AnchorMax x="0.9803594" y="0.1208611"/>
+                  <Pivot x="0.5" y="0.5"/>
+                  <OffsetMin x="4.5" y="8.5"/>
+                  <OffsetMax x="3.5" y="6.5"/>
+                  <Rot x="0.0" y="0.0" z="0.0"/>
+                  <Scale x="1.0" y="1.0" z="1.0"/>
+                </InitObj>
+                <InitObj ID="9" Name="Map" Desc="Map" Anim="null">
+                  <AnchorMin x="0.9382969" y="0.1794722"/>
+                  <AnchorMax x="0.9803594" y="0.2601667"/>
+                  <Pivot x="0.5" y="0.5"/>
+                  <OffsetMin x="4" y="3.5"/>
+                  <OffsetMax x="-4.0" y="-3.5"/>
+                  <Rot x="0.0" y="0.0" z="0.0"/>
+                  <Scale x="1.0" y="1.0" z="1.0"/>
+                </InitObj>
+              </InitObjList>
+            </Canvas>
+            <Canvas ID="1">
+              <InitObjList>
+                <InitObj ID="0" Name="BackGround" Desc="배경" Anim="null">
+                  <AnchorMin x="0.0" y="0.0"/>
+                  <AnchorMax x="1.0" y="1.0"/>
+                  <Pivot x="0.5" y="0.5"/>
+                  <OffsetMin x="0.0" y="0.0"/>
+                  <OffsetMax x="0.0" y="0.0"/>
+                  <Rot x="0.0" y="0.0" z="0.0"/>
+                  <Scale x="1.0" y="1.0" z="1.0"/>
+                </InitObj>
+              </InitObjList>
+            </Canvas>
+          </ObjType2D>
+        </InitObjList>
+        <Text>백제 시대에 교역하던 중국의 상인을 보다니! 또 볼 수 있었으면 좋겠다~ 능허대에서 중국 상인과 직접 거래해보다니, 신기한 경험이었어.</Text>
+      </InitEvent>            
+      <InitEvent ID="18">
+        <InitCharList>
+          <CharType2D>
+            <Canvas ID="0">
+              <InitCharList>
+                <InitChar ID="0" Name="CH_04" Desc="해설" Anim="Idle">
+                  <AnchorMin x="0.7647344" y="0.2833334"/>
+                  <AnchorMax x="0.9881719" y="0.733"/>
+                  <Pivot x="0.5" y="0.5"/>
+                  <OffsetMin x="-932.5" y="-573.5"/>
+                  <OffsetMax x="1051.5" y="218.5"/>
+                  <Rot x="0.0" y="0.0" z="0.0"/>
+                  <Scale x="1.0" y="1.0" z="1.0"/>
+                </InitChar>
+              </InitCharList>
+            </Canvas>
+          </CharType2D>
+        </InitCharList>
+        <InitObjList>
+          <ObjType2D>
+            <Canvas ID="0">
+              <InitObjList>
+                <InitObj ID="1" Name="TextBox" Desc="테스트_오브젝트1" Anim="null">
+                  <AnchorMin x="0.0" y="0.02147222"/>
+                  <AnchorMax x="0.9928594" y="0.2916111"/>
+                  <Pivot x="0.5" y="0.5"/>
+                  <OffsetMin x="36.5" y="15.0"/>
+                  <OffsetMax x="12.0" y="-12.0"/>
+                  <Rot x="0.0" y="0.0" z="0.0"/>
+                  <Scale x="1.0" y="1.0" z="1.0"/>
+                </InitObj>
+                <InitObj ID="2" Name="forward" Desc="다음 버튼" Anim="null">
+                  <AnchorMin x="0.9382969" y="0.036"/>
+                  <AnchorMax x="0.9803594" y="0.1208611"/>
+                  <Pivot x="0.5" y="0.5"/>
+                  <OffsetMin x="4.5" y="8.5"/>
+                  <OffsetMax x="3.5" y="6.5"/>
+                  <Rot x="0.0" y="0.0" z="0.0"/>
+                  <Scale x="1.0" y="1.0" z="1.0"/>
+                </InitObj>
+                <InitObj ID="9" Name="Map" Desc="Map" Anim="null">
+                  <AnchorMin x="0.9382969" y="0.1794722"/>
+                  <AnchorMax x="0.9803594" y="0.2601667"/>
+                  <Pivot x="0.5" y="0.5"/>
+                  <OffsetMin x="4" y="3.5"/>
+                  <OffsetMax x="-4.0" y="-3.5"/>
+                  <Rot x="0.0" y="0.0" z="0.0"/>
+                  <Scale x="1.0" y="1.0" z="1.0"/>
+                </InitObj>
+              </InitObjList>
+            </Canvas>
+            <Canvas ID="1">
+              <InitObjList>
+                <InitObj ID="0" Name="BackGround" Desc="배경" Anim="null">
+                  <AnchorMin x="0.0" y="0.0"/>
+                  <AnchorMax x="1.0" y="1.0"/>
+                  <Pivot x="0.5" y="0.5"/>
+                  <OffsetMin x="0.0" y="0.0"/>
+                  <OffsetMax x="0.0" y="0.0"/>
+                  <Rot x="0.0" y="0.0" z="0.0"/>
+                  <Scale x="1.0" y="1.0" z="1.0"/>
+                </InitObj>
+              </InitObjList>
+            </Canvas>
+          </ObjType2D>
+        </InitObjList>
+        <Text>퀴즈를 풀어봅시다.</Text>
+      </InitEvent>      
+      <InitEvent ID="19">
+        <InitCharList>
+          <CharType2D>
+            <Canvas ID="0">
+              <InitCharList>
+                <InitChar ID="0" Name="CH_04" Desc="해설" Anim="Idle">
+                  <AnchorMin x="0.7647344" y="0.2833334"/>
+                  <AnchorMax x="0.9881719" y="0.733"/>
+                  <Pivot x="0.5" y="0.5"/>
+                  <OffsetMin x="-932.5" y="-573.5"/>
+                  <OffsetMax x="1051.5" y="218.5"/>
+                  <Rot x="0.0" y="0.0" z="0.0"/>
+                  <Scale x="1.0" y="1.0" z="1.0"/>
+                </InitChar>
+              </InitCharList>
+            </Canvas>
+          </CharType2D>          
+        </InitCharList>
+        <InitObjList>
+          <ObjType2D>
+            <Canvas ID="0">
+              <InitObjList>
+                <InitObj ID="1" Name="TextBox" Desc="테스트_오브젝트1" Anim="null">
+                  <AnchorMin x="0.0" y="0.02147222"/>
+                  <AnchorMax x="0.9928594" y="0.2916111"/>
+                  <Pivot x="0.5" y="0.5"/>
+                  <OffsetMin x="36.5" y="15.0"/>
+                  <OffsetMax x="12.0" y="-12.0"/>
+                  <Rot x="0.0" y="0.0" z="0.0"/>
+                  <Scale x="1.0" y="1.0" z="1.0"/>
+                </InitObj>
+                <InitObj ID="2" Name="forward" Desc="다음 버튼" Anim="null">
+                  <AnchorMin x="0.9382969" y="0.036"/>
+                  <AnchorMax x="0.9803594" y="0.1208611"/>
+                  <Pivot x="0.5" y="0.5"/>
+                  <OffsetMin x="4.5" y="8.5"/>
+                  <OffsetMax x="3.5" y="6.5"/>
+                  <Rot x="0.0" y="0.0" z="0.0"/>
+                  <Scale x="1.0" y="1.0" z="1.0"/>
+                </InitObj>
+                <InitObj ID="9" Name="Map" Desc="Map" Anim="null">
+                  <AnchorMin x="0.9382969" y="0.1794722"/>
+                  <AnchorMax x="0.9803594" y="0.2601667"/>
+                  <Pivot x="0.5" y="0.5"/>
+                  <OffsetMin x="4" y="3.5"/>
+                  <OffsetMax x="-4.0" y="-3.5"/>
+                  <Rot x="0.0" y="0.0" z="0.0"/>
+                  <Scale x="1.0" y="1.0" z="1.0"/>
+                </InitObj>
+              </InitObjList>
+            </Canvas>
+            <Canvas ID="1">
+              <InitObjList>
+                <InitObj ID="0" Name="BackGround" Desc="배경" Anim="null">
+                  <AnchorMin x="0.0" y="0.0"/>
+                  <AnchorMax x="1.0" y="1.0"/>
+                  <Pivot x="0.5" y="0.5"/>
+                  <OffsetMin x="0.0" y="0.0"/>
+                  <OffsetMax x="0.0" y="0.0"/>
+                  <Rot x="0.0" y="0.0" z="0.0"/>
+                  <Scale x="1.0" y="1.0" z="1.0"/>
+                </InitObj>
+              </InitObjList>
+            </Canvas>
+          </ObjType2D>         
+        </InitObjList>
+        <Text>현대의 능허대로 돌아가시겠습니까?</Text>
+      </InitEvent>      
+      <InitEvent ID="20">
+        <InitCharList>
+          <CharType2D>
+            <Canvas ID="0">
+              <InitCharList>
+                <InitChar ID="1" Name="CH_01" Desc="테스트용" Anim="Idle">
+                  <AnchorMin x="0.8" y="0.283"/>
+                  <AnchorMax x="1.0" y="0.66"/>
+                  <Pivot x="0.5" y="0.5"/>
+                  <OffsetMin x="-1050.0" y="410.5"/>
+                  <OffsetMax x="1000.0" y="-900.5"/>
+                  <Rot x="0.0" y="0.0" z="0.0"/>
+                  <Scale x="1.0" y="1.0" z="1.0"/>
+                </InitChar>
+                <InitChar ID="2" Name="CH_02" Desc="테스트용" Anim="Idle">
+                  <AnchorMin x="0.8145625" y="0.2833334"/>
+                  <AnchorMax x="1.0" y="0.66"/>
+                  <Pivot x="0.5" y="0.5"/>
+                  <OffsetMin x="-1124.0" y="184.0"/>
+                  <OffsetMax x="962.0" y="-1127.0"/>
+                  <Rot x="0.0" y="0.0" z="0.0"/>
+                  <Scale x="1.0" y="1.0" z="1.0"/>
+                </InitChar>
+              </InitCharList>
+            </Canvas>
+          </CharType2D>
+        </InitCharList>
+        <InitObjList>
+          <ObjType2D>
+            <Canvas ID="0">
+              <InitObjList>
+                <InitObj ID="1" Name="TextBox" Desc="테스트_오브젝트1" Anim="null">
+                  <AnchorMin x="0.0" y="0.02147222"/>
+                  <AnchorMax x="0.9928594" y="0.2916111"/>
+                  <Pivot x="0.5" y="0.5"/>
+                  <OffsetMin x="36.5" y="15.0"/>
+                  <OffsetMax x="12.0" y="-12.0"/>
+                  <Rot x="0.0" y="0.0" z="0.0"/>
+                  <Scale x="1.0" y="1.0" z="1.0"/>
+                </InitObj>
+                <InitObj ID="2" Name="forward" Desc="다음 버튼" Anim="null">
+                  <AnchorMin x="0.9382969" y="0.036"/>
+                  <AnchorMax x="0.9803594" y="0.1208611"/>
+                  <Pivot x="0.5" y="0.5"/>
+                  <OffsetMin x="4.5" y="8.5"/>
+                  <OffsetMax x="3.5" y="6.5"/>
+                  <Rot x="0.0" y="0.0" z="0.0"/>
+                  <Scale x="1.0" y="1.0" z="1.0"/>
+                </InitObj>
+                <InitObj ID="9" Name="Map" Desc="Map" Anim="null">
+                  <AnchorMin x="0.9382969" y="0.1794722"/>
+                  <AnchorMax x="0.9803594" y="0.2601667"/>
+                  <Pivot x="0.5" y="0.5"/>
+                  <OffsetMin x="4" y="3.5"/>
+                  <OffsetMax x="-4.0" y="-3.5"/>
+                  <Rot x="0.0" y="0.0" z="0.0"/>
+                  <Scale x="1.0" y="1.0" z="1.0"/>
+                </InitObj>
+              </InitObjList>
+            </Canvas>
+            <Canvas ID="1">
+              <InitObjList>
+                <InitObj ID="0" Name="BackGround" Desc="배경" Anim="null">
+                  <AnchorMin x="0.0" y="0.0"/>
+                  <AnchorMax x="1.0" y="1.0"/>
+                  <Pivot x="0.5" y="0.5"/>
+                  <OffsetMin x="0.0" y="0.0"/>
+                  <OffsetMax x="0.0" y="0.0"/>
+                  <Rot x="0.0" y="0.0" z="0.0"/>
+                  <Scale x="1.0" y="1.0" z="1.0"/>
+                </InitObj>
+              </InitObjList>
+            </Canvas>
+          </ObjType2D>
+        </InitObjList>
+        <Text>정말 진기한 경험이었어… 수로를 직접 개척하여 중국과 무역을 할 정도로 문화와 기술이 발달했음에도 화폐를 통한 거래가 드물었다는 건 의외야.</Text>
+      </InitEvent>                      
+      <InitEvent ID="21">
+        <InitCharList>
+          <CharType2D>
+            <Canvas ID="0">
+              <InitCharList>
+                <InitChar ID="0" Name="CH_04" Desc="해설" Anim="Idle">
+                  <AnchorMin x="0.7647344" y="0.2833334"/>
+                  <AnchorMax x="0.9881719" y="0.733"/>
+                  <Pivot x="0.5" y="0.5"/>
+                  <OffsetMin x="-932.5" y="-573.5"/>
+                  <OffsetMax x="1051.5" y="218.5"/>
+                  <Rot x="0.0" y="0.0" z="0.0"/>
+                  <Scale x="1.0" y="1.0" z="1.0"/>
+                </InitChar>
+                
+              </InitCharList>
+            </Canvas>
+          </CharType2D>
+        </InitCharList>
+        <InitObjList>
+          <ObjType2D>
+            <Canvas ID="0">
+              <InitObjList>
+                <InitObj ID="1" Name="TextBox" Desc="테스트_오브젝트1" Anim="null">
+                  <AnchorMin x="0.0" y="0.02147222"/>
+                  <AnchorMax x="0.9928594" y="0.2916111"/>
+                  <Pivot x="0.5" y="0.5"/>
+                  <OffsetMin x="36.5" y="15.0"/>
+                  <OffsetMax x="12.0" y="-12.0"/>
+                  <Rot x="0.0" y="0.0" z="0.0"/>
+                  <Scale x="1.0" y="1.0" z="1.0"/>
+                </InitObj>               
+                <InitObj ID="13" Name="Input_Text_PopUp_2" Desc="다음 버튼" Anim="null">
+                  <AnchorMin x="0.0" y="0.0"/>
+                  <AnchorMax x="1.0" y="1.0"/>
+                  <Pivot x="0.5" y="0.5"/>
+                  <OffsetMin x="500.0" y="430.0"/>
+                  <OffsetMax x="-600.0" y="-150.0"/>
+                  <Rot x="0.0" y="0.0" z="0.0"/>
+                  <Scale x="1.0" y="1.0" z="1.0"/>
+                </InitObj>            
+              </InitObjList>                          
+            </Canvas>
+            <Canvas ID="1">
+              <InitObjList>
+                <InitObj ID="0" Name="BackGround" Desc="배경" Anim="null">
+                  <AnchorMin x="0.0" y="0.0"/>
+                  <AnchorMax x="1.0" y="1.0"/>
+                  <Pivot x="0.5" y="0.5"/>
+                  <OffsetMin x="0.0" y="0.0"/>
+                  <OffsetMax x="0.0" y="0.0"/>
+                  <Rot x="0.0" y="0.0" z="0.0"/>
+                  <Scale x="1.0" y="1.0" z="1.0"/>
+                </InitObj>
+              </InitObjList>
+            </Canvas>
+          </ObjType2D>
+        </InitObjList>
+        <Text>화폐가 널리 유통되었다면 교환할 물건이 없더라도 누구나 손쉽게 거래에 참여할 수 있었을 것입니다. 내가 백제의 경제부문 자문위원이었다면, 물건의 거래와 관련하여 어떤 정책을 펼쳤을까요? 백제에 화폐를 널리 유통시켰을지 생각해 봅시다.</Text>
+      </InitEvent>
+      <InitEvent ID="22">
+        <InitCharList>
+          <CharType2D>
+            <Canvas ID="0">
+              <InitCharList>
+                <InitChar ID="0" Name="CH_04" Desc="해설" Anim="Idle">
+                  <AnchorMin x="0.7647344" y="0.2833334"/>
+                  <AnchorMax x="0.9881719" y="0.733"/>
+                  <Pivot x="0.5" y="0.5"/>
+                  <OffsetMin x="-932.5" y="-573.5"/>
+                  <OffsetMax x="1051.5" y="218.5"/>
+                  <Rot x="0.0" y="0.0" z="0.0"/>
+                  <Scale x="1.0" y="1.0" z="1.0"/>
+                </InitChar>
+              </InitCharList>
+            </Canvas>
+          </CharType2D>
+        </InitCharList>
+        <InitObjList>
+          <ObjType2D>
+            <Canvas ID="0">
+              <InitObjList>
+                <InitObj ID="1" Name="TextBox" Desc="테스트_오브젝트1" Anim="null">
+                  <AnchorMin x="0.0" y="0.02147222"/>
+                  <AnchorMax x="0.9928594" y="0.2916111"/>
+                  <Pivot x="0.5" y="0.5"/>
+                  <OffsetMin x="36.5" y="15.0"/>
+                  <OffsetMax x="12.0" y="-12.0"/>
+                  <Rot x="0.0" y="0.0" z="0.0"/>
+                  <Scale x="1.0" y="1.0" z="1.0"/>
+                </InitObj>
+                <InitObj ID="2" Name="forward" Desc="다음 버튼" Anim="null">
+                  <AnchorMin x="0.9382969" y="0.036"/>
+                  <AnchorMax x="0.9803594" y="0.1208611"/>
+                  <Pivot x="0.5" y="0.5"/>
+                  <OffsetMin x="4.5" y="8.5"/>
+                  <OffsetMax x="3.5" y="6.5"/>
+                  <Rot x="0.0" y="0.0" z="0.0"/>
+                  <Scale x="1.0" y="1.0" z="1.0"/>
+                </InitObj>
+                <InitObj ID="9" Name="Map" Desc="Map" Anim="null">
+                  <AnchorMin x="0.9382969" y="0.1794722"/>
+                  <AnchorMax x="0.9803594" y="0.2601667"/>
+                  <Pivot x="0.5" y="0.5"/>
+                  <OffsetMin x="4" y="3.5"/>
+                  <OffsetMax x="-4.0" y="-3.5"/>
+                  <Rot x="0.0" y="0.0" z="0.0"/>
+                  <Scale x="1.0" y="1.0" z="1.0"/>
+                </InitObj>
+              </InitObjList>
+            </Canvas>
+            <Canvas ID="1">
+              <InitObjList>
+                <InitObj ID="0" Name="BackGround" Desc="배경" Anim="null">
+                  <AnchorMin x="0.0" y="0.0"/>
+                  <AnchorMax x="1.0" y="1.0"/>
+                  <Pivot x="0.5" y="0.5"/>
+                  <OffsetMin x="0.0" y="0.0"/>
+                  <OffsetMax x="0.0" y="0.0"/>
+                  <Rot x="0.0" y="0.0" z="0.0"/>
+                  <Scale x="1.0" y="1.0" z="1.0"/>
+                </InitObj>
+              </InitObjList>
+            </Canvas>
+          </ObjType2D>
+        </InitObjList>
+        <Text>앱을 종료하시겠습니까?</Text>
+      </InitEvent>
+      
+      <!--스테이지 2 시작-->
+           
+      <InitEvent ID="25">
+        <InitCharList>
+          <CharType2D>
+            <Canvas ID="0">
+              <InitCharList>
+                <InitChar ID="0" Name="CH_04" Desc="해설" Anim="Idle">
+                  <AnchorMin x="0.7647344" y="0.2833334"/>
+                  <AnchorMax x="0.9881719" y="0.733"/>
+                  <Pivot x="0.5" y="0.5"/>
+                  <OffsetMin x="-932.5" y="-573.5"/>
+                  <OffsetMax x="1051.5" y="218.5"/>
+                  <Rot x="0.0" y="0.0" z="0.0"/>
+                  <Scale x="1.0" y="1.0" z="1.0"/>
+                </InitChar>
+              </InitCharList>
+            </Canvas>
+          </CharType2D>
+        </InitCharList>
+        <InitObjList>
+          <ObjType2D>
+            <Canvas ID="0">
+              <InitObjList>
+                <InitObj ID="1" Name="TextBox" Desc="테스트_오브젝트1" Anim="null">
+                  <AnchorMin x="0.0" y="0.02147222"/>
+                  <AnchorMax x="0.9928594" y="0.2916111"/>
+                  <Pivot x="0.5" y="0.5"/>
+                  <OffsetMin x="36.5" y="15.0"/>
+                  <OffsetMax x="12.0" y="-12.0"/>
+                  <Rot x="0.0" y="0.0" z="0.0"/>
+                  <Scale x="1.0" y="1.0" z="1.0"/>
+                </InitObj>
+                <InitObj ID="2" Name="forward" Desc="다음 버튼" Anim="null">
+                  <AnchorMin x="0.9382969" y="0.036"/>
+                  <AnchorMax x="0.9803594" y="0.1208611"/>
+                  <Pivot x="0.5" y="0.5"/>
+                  <OffsetMin x="4.5" y="8.5"/>
+                  <OffsetMax x="3.5" y="6.5"/>
+                  <Rot x="0.0" y="0.0" z="0.0"/>
+                  <Scale x="1.0" y="1.0" z="1.0"/>
+                </InitObj>
+                <InitObj ID="5" Name="Map" Desc="Map" Anim="null">
+                  <AnchorMin x="0.9382969" y="0.1794722"/>
+                  <AnchorMax x="0.9803594" y="0.2601667"/>
+                  <Pivot x="0.5" y="0.5"/>
+                  <OffsetMin x="4" y="3.5"/>
+                  <OffsetMax x="-4.0" y="-3.5"/>
+                  <Rot x="0.0" y="0.0" z="0.0"/>
+                  <Scale x="1.0" y="1.0" z="1.0"/>
+                </InitObj>
+              </InitObjList>
+            </Canvas>
+            <Canvas ID="1">
+              <InitObjList>
+                <InitObj ID="0" Name="BackGround" Desc="배경" Anim="null">
+                  <AnchorMin x="0.0" y="0.0"/>
+                  <AnchorMax x="1.0" y="1.0"/>
+                  <Pivot x="0.5" y="0.5"/>
+                  <OffsetMin x="0.0" y="0.0"/>
+                  <OffsetMax x="0.0" y="0.0"/>
+                  <Rot x="0.0" y="0.0" z="0.0"/>
+                  <Scale x="1.0" y="1.0" z="1.0"/>
+                </InitObj>
+              </InitObjList>
+            </Canvas>
+          </ObjType2D>
+        </InitObjList>
+        <Text>인천경제자유구역(ifez)에 대해 살펴 볼까요?</Text>
+      </InitEvent>                
+      <InitEvent ID="26">
+        <InitCharList>
+          <CharType2D>
+            <Canvas ID="0">
+              <InitCharList>
+                <InitChar ID="0" Name="CH_04" Desc="해설" Anim="Idle">
+                  <AnchorMin x="0.7647344" y="0.2833334"/>
+                  <AnchorMax x="0.9881719" y="0.733"/>
+                  <Pivot x="0.5" y="0.5"/>
+                  <OffsetMin x="-932.5" y="-573.5"/>
+                  <OffsetMax x="1051.5" y="218.5"/>
+                  <Rot x="0.0" y="0.0" z="0.0"/>
+                  <Scale x="1.0" y="1.0" z="1.0"/>
+                </InitChar>
+              </InitCharList>
+            </Canvas>
+          </CharType2D>
+        </InitCharList>
+        <InitObjList>
+          <ObjType2D>
+            <Canvas ID="0">
+              <InitObjList>
+                <InitObj ID="1" Name="TextBox" Desc="테스트_오브젝트1" Anim="null">
+                  <AnchorMin x="0.0" y="0.02147222"/>
+                  <AnchorMax x="0.9928594" y="0.2916111"/>
+                  <Pivot x="0.5" y="0.5"/>
+                  <OffsetMin x="36.5" y="15.0"/>
+                  <OffsetMax x="12.0" y="-12.0"/>
+                  <Rot x="0.0" y="0.0" z="0.0"/>
+                  <Scale x="1.0" y="1.0" z="1.0"/>
+                </InitObj>
+                <InitObj ID="2" Name="forward" Desc="다음 버튼" Anim="null">
+                  <AnchorMin x="0.9382969" y="0.036"/>
+                  <AnchorMax x="0.9803594" y="0.1208611"/>
+                  <Pivot x="0.5" y="0.5"/>
+                  <OffsetMin x="4.5" y="8.5"/>
+                  <OffsetMax x="3.5" y="6.5"/>
+                  <Rot x="0.0" y="0.0" z="0.0"/>
+                  <Scale x="1.0" y="1.0" z="1.0"/>
+                </InitObj>
+                <InitObj ID="5" Name="Map" Desc="Map" Anim="null">
+                  <AnchorMin x="0.9382969" y="0.1794722"/>
+                  <AnchorMax x="0.9803594" y="0.2601667"/>
+                  <Pivot x="0.5" y="0.5"/>
+                  <OffsetMin x="4" y="3.5"/>
+                  <OffsetMax x="-4.0" y="-3.5"/>
+                  <Rot x="0.0" y="0.0" z="0.0"/>
+                  <Scale x="1.0" y="1.0" z="1.0"/>
+                </InitObj>
+              </InitObjList>
+            </Canvas>
+            <Canvas ID="1">
+              <InitObjList>
+                <InitObj ID="0" Name="BackGround" Desc="배경" Anim="null">
+                  <AnchorMin x="0.0" y="0.0"/>
+                  <AnchorMax x="1.0" y="1.0"/>
+                  <Pivot x="0.5" y="0.5"/>
+                  <OffsetMin x="0.0" y="0.0"/>
+                  <OffsetMax x="0.0" y="0.0"/>
+                  <Rot x="0.0" y="0.0" z="0.0"/>
+                  <Scale x="1.0" y="1.0" z="1.0"/>
+                </InitObj>
+              </InitObjList>
+            </Canvas>
+          </ObjType2D>
+        </InitObjList>
+        <Text>인천경제자유구역(ifez)은 세계 은행, 녹색기후기금, 세계선거기관협의회 등 13개 국제기구와 75개 글로벌 기업이 위치한 비즈니스 허브이다. 인천국제공항을 비롯하여, 초대형 화물선이 입항 가능한 최첨단 항만, 1시간 내 서울 및 수도권을 연결하는 도로망이 구축된 물류와 교통의 중심지다.</Text>
+      </InitEvent>      
+      <InitEvent ID="27">
+        <InitCharList>
+          <CharType2D>
+            <Canvas ID="0">
+              <InitCharList>
+                <InitChar ID="0" Name="CH_04" Desc="해설" Anim="Idle">
+                  <AnchorMin x="0.7647344" y="0.2833334"/>
+                  <AnchorMax x="0.9881719" y="0.733"/>
+                  <Pivot x="0.5" y="0.5"/>
+                  <OffsetMin x="-932.5" y="-573.5"/>
+                  <OffsetMax x="1051.5" y="218.5"/>
+                  <Rot x="0.0" y="0.0" z="0.0"/>
+                  <Scale x="1.0" y="1.0" z="1.0"/>
+                </InitChar>
+              </InitCharList>
+            </Canvas>
+          </CharType2D>
+        </InitCharList>
+        <InitObjList>
+          <ObjType2D>
+            <Canvas ID="0">
+              <InitObjList>
+                <InitObj ID="1" Name="TextBox" Desc="테스트_오브젝트1" Anim="null">
+                  <AnchorMin x="0.0" y="0.02147222"/>
+                  <AnchorMax x="0.9928594" y="0.2916111"/>
+                  <Pivot x="0.5" y="0.5"/>
+                  <OffsetMin x="36.5" y="15.0"/>
+                  <OffsetMax x="12.0" y="-12.0"/>
+                  <Rot x="0.0" y="0.0" z="0.0"/>
+                  <Scale x="1.0" y="1.0" z="1.0"/>
+                </InitObj>
+                <InitObj ID="2" Name="forward" Desc="다음 버튼" Anim="null">
+                  <AnchorMin x="0.9382969" y="0.036"/>
+                  <AnchorMax x="0.9803594" y="0.1208611"/>
+                  <Pivot x="0.5" y="0.5"/>
+                  <OffsetMin x="4.5" y="8.5"/>
+                  <OffsetMax x="3.5" y="6.5"/>
+                  <Rot x="0.0" y="0.0" z="0.0"/>
+                  <Scale x="1.0" y="1.0" z="1.0"/>
+                </InitObj>                
+                <InitObj ID="9" Name="URL_PopUp_1" Desc="다음 버튼" Anim="null">
+                  <AnchorMin x="0.0" y="0.0"/>
+                  <AnchorMax x="1.0" y="1.0"/>
+                  <Pivot x="0.5" y="0.5"/>
+                  <OffsetMin x="500.0" y="480.0"/>
+                  <OffsetMax x="-600.0" y="-200.0"/>
+                  <Rot x="0.0" y="0.0" z="0.0"/>
+                  <Scale x="1.0" y="1.0" z="1.0"/>
+                </InitObj>
+                <InitObj ID="5" Name="Map" Desc="Map" Anim="null">
+                  <AnchorMin x="0.9382969" y="0.1794722"/>
+                  <AnchorMax x="0.9803594" y="0.2601667"/>
+                  <Pivot x="0.5" y="0.5"/>
+                  <OffsetMin x="4" y="3.5"/>
+                  <OffsetMax x="-4.0" y="-3.5"/>
+                  <Rot x="0.0" y="0.0" z="0.0"/>
+                  <Scale x="1.0" y="1.0" z="1.0"/>
+                </InitObj>
+              </InitObjList>
+            </Canvas>
+            <Canvas ID="1">
+              <InitObjList>
+                <InitObj ID="0" Name="BackGround" Desc="배경" Anim="null">
+                  <AnchorMin x="0.0" y="0.0"/>
+                  <AnchorMax x="1.0" y="1.0"/>
+                  <Pivot x="0.5" y="0.5"/>
+                  <OffsetMin x="0.0" y="0.0"/>
+                  <OffsetMax x="0.0" y="0.0"/>
+                  <Rot x="0.0" y="0.0" z="0.0"/>
+                  <Scale x="1.0" y="1.0" z="1.0"/>
+                </InitObj>
+              </InitObjList>
+            </Canvas>
+          </ObjType2D>
+        </InitObjList>
+        <Text>인천경제자유구역(ifez) 홍보 홈페이지에 방문하면 홍보관 관람과 관련된 다양하고 정확한 정보를 확인할 수 있습니다.</Text>
+      </InitEvent>      
+      <InitEvent ID="28">
+        <InitCharList>
+          <CharType2D>
+            <Canvas ID="0">
+              <InitCharList>
+                <InitChar ID="0" Name="CH_04" Desc="해설" Anim="Idle">
+                  <AnchorMin x="0.7647344" y="0.2833334"/>
+                  <AnchorMax x="0.9881719" y="0.733"/>
+                  <Pivot x="0.5" y="0.5"/>
+                  <OffsetMin x="-932.5" y="-573.5"/>
+                  <OffsetMax x="1051.5" y="218.5"/>
+                  <Rot x="0.0" y="0.0" z="0.0"/>
+                  <Scale x="1.0" y="1.0" z="1.0"/>
+                </InitChar>
+              </InitCharList>
+            </Canvas>
+          </CharType2D>
+        </InitCharList>
+        <InitObjList>
+          <ObjType2D>
+            <Canvas ID="0">
+              <InitObjList>
+                <InitObj ID="1" Name="TextBox" Desc="테스트_오브젝트1" Anim="null">
+                  <AnchorMin x="0.0" y="0.02147222"/>
+                  <AnchorMax x="0.9928594" y="0.2916111"/>
+                  <Pivot x="0.5" y="0.5"/>
+                  <OffsetMin x="36.5" y="15.0"/>
+                  <OffsetMax x="12.0" y="-12.0"/>
+                  <Rot x="0.0" y="0.0" z="0.0"/>
+                  <Scale x="1.0" y="1.0" z="1.0"/>
+                </InitObj>
+                <InitObj ID="2" Name="forward" Desc="다음 버튼" Anim="null">
+                  <AnchorMin x="0.9382969" y="0.036"/>
+                  <AnchorMax x="0.9803594" y="0.1208611"/>
+                  <Pivot x="0.5" y="0.5"/>
+                  <OffsetMin x="4.5" y="8.5"/>
+                  <OffsetMax x="3.5" y="6.5"/>
+                  <Rot x="0.0" y="0.0" z="0.0"/>
+                  <Scale x="1.0" y="1.0" z="1.0"/>
+                </InitObj>
+                <InitObj ID="5" Name="Map" Desc="Map" Anim="null">
+                  <AnchorMin x="0.9382969" y="0.1794722"/>
+                  <AnchorMax x="0.9803594" y="0.2601667"/>
+                  <Pivot x="0.5" y="0.5"/>
+                  <OffsetMin x="4" y="3.5"/>
+                  <OffsetMax x="-4.0" y="-3.5"/>
+                  <Rot x="0.0" y="0.0" z="0.0"/>
+                  <Scale x="1.0" y="1.0" z="1.0"/>
+                </InitObj>
+              </InitObjList>
+            </Canvas>
+            <Canvas ID="1">
+              <InitObjList>
+                <InitObj ID="0" Name="BackGround" Desc="배경" Anim="null">
+                  <AnchorMin x="0.0" y="0.0"/>
+                  <AnchorMax x="1.0" y="1.0"/>
+                  <Pivot x="0.5" y="0.5"/>
+                  <OffsetMin x="0.0" y="0.0"/>
+                  <OffsetMax x="0.0" y="0.0"/>
+                  <Rot x="0.0" y="0.0" z="0.0"/>
+                  <Scale x="1.0" y="1.0" z="1.0"/>
+                </InitObj>
+              </InitObjList>
+            </Canvas>
+          </ObjType2D>
+        </InitObjList>
+        <Text>당신은 인천경제자유구역에서 무역업을 하는 사업가입니다. 이곳에서 필요한 자원을 거래해 보도록 합니다.</Text>
+      </InitEvent>      
+      <InitEvent ID="29">
+        <InitCharList>
+          <CharType2D>
+            <Canvas ID="0">
+              <InitCharList>
+                <InitChar ID="1" Name="CH_01" Desc="테스트용" Anim="Idle">
+                  <AnchorMin x="0.8" y="0.283"/>
+                  <AnchorMax x="1.0" y="0.66"/>
+                  <Pivot x="0.5" y="0.5"/>
+                  <OffsetMin x="-1050.0" y="410.5"/>
+                  <OffsetMax x="1000.0" y="-900.5"/>
+                  <Rot x="0.0" y="0.0" z="0.0"/>
+                  <Scale x="1.0" y="1.0" z="1.0"/>
+                </InitChar>
+                <InitChar ID="2" Name="CH_02" Desc="테스트용" Anim="Idle">
+                  <AnchorMin x="0.8145625" y="0.2833334"/>
+                  <AnchorMax x="1.0" y="0.66"/>
+                  <Pivot x="0.5" y="0.5"/>
+                  <OffsetMin x="-1124.0" y="184.0"/>
+                  <OffsetMax x="962.0" y="-1127.0"/>
+                  <Rot x="0.0" y="0.0" z="0.0"/>
+                  <Scale x="1.0" y="1.0" z="1.0"/>
+                </InitChar>
+              </InitCharList>
+            </Canvas>
+          </CharType2D>
+        </InitCharList>
+        <InitObjList>
+          <ObjType2D>
+            <Canvas ID="0">
+              <InitObjList>
+                <InitObj ID="1" Name="TextBox" Desc="테스트_오브젝트1" Anim="null">
+                  <AnchorMin x="0.0" y="0.02147222"/>
+                  <AnchorMax x="0.9928594" y="0.2916111"/>
+                  <Pivot x="0.5" y="0.5"/>
+                  <OffsetMin x="36.5" y="15.0"/>
+                  <OffsetMax x="12.0" y="-12.0"/>
+                  <Rot x="0.0" y="0.0" z="0.0"/>
+                  <Scale x="1.0" y="1.0" z="1.0"/>
+                </InitObj>                
+                <InitObj ID="7" Name="ClipStart_PopUp" Desc="다음 버튼" Anim="null">
+                  <AnchorMin x="0.0" y="0.0"/>
+                  <AnchorMax x="1.0" y="1.0"/>
+                  <Pivot x="0.5" y="0.5"/>
+                  <OffsetMin x="700.0" y="650.0"/>
+                  <OffsetMax x="-800.0" y="-250.0"/>
+                  <Rot x="0.0" y="0.0" z="0.0"/>
+                  <Scale x="1.0" y="1.0" z="1.0"/>
+                </InitObj>                                
+              </InitObjList>
+            </Canvas>
+            <Canvas ID="1">
+              <InitObjList>
+                <InitObj ID="0" Name="BackGround" Desc="배경" Anim="null">
+                  <AnchorMin x="0.0" y="0.0"/>
+                  <AnchorMax x="1.0" y="1.0"/>
+                  <Pivot x="0.5" y="0.5"/>
+                  <OffsetMin x="0.0" y="0.0"/>
+                  <OffsetMax x="0.0" y="0.0"/>
+                  <Rot x="0.0" y="0.0" z="0.0"/>
+                  <Scale x="1.0" y="1.0" z="1.0"/>
+                </InitObj>
+              </InitObjList>
+            </Canvas>
+          </ObjType2D>
+        </InitObjList>
+        <Text>인천항에는 우리나라에 들어오는 수입품과 해외로 나가는 수출품을 모두 만나볼 수 있지! 이곳에서 어떤 물건을 거래하게 될까?</Text>
+      </InitEvent>                    
+      <InitEvent ID="30">
+        <InitCharList>
+          <CharType2D>
+            <Canvas ID="0">
+              <InitCharList>                                
+                <InitChar ID="3" Name="CH_07" Desc="CH_07" Anim="Idle">
+                  <AnchorMin x="0.01" y="0.021"/>
+                  <AnchorMax x="0.237" y="0.463"/>
+                  <Pivot x="0.5" y="0.5"/>
+                  <OffsetMin x="0.0" y="452.0"/>
+                  <OffsetMax x="0.0" y="0.0"/>
+                  <Rot x="0.0" y="0.0" z="0.0"/>
+                  <Scale x="1.0" y="1.0" z="1.0"/>
+                </InitChar>
+              </InitCharList>
+            </Canvas>
+          </CharType2D>          
+        </InitCharList>
+        <InitObjList>
+          <ObjType2D>
+            <Canvas ID="0">
+              <InitObjList>                
+                <InitObj ID="1" Name="TextBox" Desc="테스트_오브젝트1" Anim="null">
+                  <AnchorMin x="0.0" y="0.02147222"/>
+                  <AnchorMax x="0.9928594" y="0.2916111"/>
+                  <Pivot x="0.5" y="0.5"/>
+                  <OffsetMin x="36.5" y="15.0"/>`
+                  <OffsetMax x="12.0" y="-12.0"/>
+                  <Rot x="0.0" y="0.0" z="0.0"/>
+                  <Scale x="1.0" y="1.0" z="1.0"/>
+                </InitObj>
+                <InitObj ID="2" Name="forward" Desc="다음 버튼" Anim="null">
+                  <AnchorMin x="0.9382969" y="0.036"/>
+                  <AnchorMax x="0.9803594" y="0.1208611"/>
+                  <Pivot x="0.5" y="0.5"/>
+                  <OffsetMin x="4.5" y="8.5"/>
+                  <OffsetMax x="3.5" y="6.5"/>
+                  <Rot x="0.0" y="0.0" z="0.0"/>
+                  <Scale x="1.0" y="1.0" z="1.0"/>
+                </InitObj>
+                <InitObj ID="5" Name="Map" Desc="Map" Anim="null">
+                  <AnchorMin x="0.9382969" y="0.1794722"/>
+                  <AnchorMax x="0.9803594" y="0.2601667"/>
+                  <Pivot x="0.5" y="0.5"/>
+                  <OffsetMin x="4" y="3.5"/>
+                  <OffsetMax x="-4.0" y="-3.5"/>
+                  <Rot x="0.0" y="0.0" z="0.0"/>
+                  <Scale x="1.0" y="1.0" z="1.0"/>
+                </InitObj>
+              </InitObjList>
+            </Canvas>
+            <Canvas ID="1">
+              <InitObjList>                
+                <InitObj ID="0" Name="BackGround" Desc="배경" Anim="null">
+                  <AnchorMin x="0.0" y="0.0"/>
+                  <AnchorMax x="1.0" y="1.0"/>
+                  <Pivot x="0.5" y="0.5"/>
+                  <OffsetMin x="0.0" y="0.0"/>
+                  <OffsetMax x="0.0" y="0.0"/>
+                  <Rot x="0.0" y="0.0" z="0.0"/>
+                  <Scale x="1.0" y="1.0" z="1.0"/>
+                </InitObj>                
+              </InitObjList>
+            </Canvas>
+          </ObjType2D>
+        </InitObjList>
+        <Text>앗살라 알라이쿰(안녕하세요)! 저는 사우디아라비아에서 원유 100톤을 싣고 인천항에 도착했습니다. 한국은 에너지 소비가 많은 국가이지만, 원유가 나지 않아 대부분을 수입한다고 들었습니다. 원유가 필요하실텐데, 저와 거래를 하시겠나요?</Text>
+      </InitEvent>      
+      <InitEvent ID="31">
+        <InitCharList>
+          <CharType2D>
+            <Canvas ID="0">
+              <InitCharList>
+                <InitChar ID="1" Name="CH_01" Desc="테스트용" Anim="Idle">
+                  <AnchorMin x="0.8" y="0.283"/>
+                  <AnchorMax x="1.0" y="0.66"/>
+                  <Pivot x="0.5" y="0.5"/>
+                  <OffsetMin x="-1050.0" y="410.5"/>
+                  <OffsetMax x="1000.0" y="-900.5"/>
+                  <Rot x="0.0" y="0.0" z="0.0"/>
+                  <Scale x="1.0" y="1.0" z="1.0"/>
+                </InitChar>
+                <InitChar ID="2" Name="CH_02" Desc="테스트용" Anim="Idle">
+                  <AnchorMin x="0.8145625" y="0.2833334"/>
+                  <AnchorMax x="1.0" y="0.66"/>
+                  <Pivot x="0.5" y="0.5"/>
+                  <OffsetMin x="-1124.0" y="184.0"/>
+                  <OffsetMax x="962.0" y="-1127.0"/>
+                  <Rot x="0.0" y="0.0" z="0.0"/>
+                  <Scale x="1.0" y="1.0" z="1.0"/>
+                </InitChar>
+              </InitCharList>
+            </Canvas>
+          </CharType2D>          
+        </InitCharList>
+        <InitObjList>
+          <ObjType2D>
+            <Canvas ID="0">
+              <InitObjList>
+                <InitObj ID="1" Name="TextBox" Desc="테스트_오브젝트1" Anim="null">
+                  <AnchorMin x="0.0" y="0.02147222"/>
+                  <AnchorMax x="0.9928594" y="0.2916111"/>
+                  <Pivot x="0.5" y="0.5"/>
+                  <OffsetMin x="36.5" y="15.0"/>
+                  <OffsetMax x="12.0" y="-12.0"/>
+                  <Rot x="0.0" y="0.0" z="0.0"/>
+                  <Scale x="1.0" y="1.0" z="1.0"/>
+                </InitObj>
+                <InitObj ID="2" Name="forward" Desc="다음 버튼" Anim="null">
+                  <AnchorMin x="0.9382969" y="0.036"/>
+                  <AnchorMax x="0.9803594" y="0.1208611"/>
+                  <Pivot x="0.5" y="0.5"/>
+                  <OffsetMin x="4.5" y="8.5"/>
+                  <OffsetMax x="3.5" y="6.5"/>
+                  <Rot x="0.0" y="0.0" z="0.0"/>
+                  <Scale x="1.0" y="1.0" z="1.0"/>
+                </InitObj>
+                <InitObj ID="5" Name="Map" Desc="Map" Anim="null">
+                  <AnchorMin x="0.9382969" y="0.1794722"/>
+                  <AnchorMax x="0.9803594" y="0.2601667"/>
+                  <Pivot x="0.5" y="0.5"/>
+                  <OffsetMin x="4" y="3.5"/>
+                  <OffsetMax x="-4.0" y="-3.5"/>
+                  <Rot x="0.0" y="0.0" z="0.0"/>
+                  <Scale x="1.0" y="1.0" z="1.0"/>
+                </InitObj>
+              </InitObjList>
+            </Canvas>
+            <Canvas ID="1">
+              <InitObjList>
+                <InitObj ID="0" Name="BackGround" Desc="배경">
+                  <AnchorMin x="0.0" y="0.0"/>
+                  <AnchorMax x="1.0" y="1.0"/>
+                  <Pivot x="0.5" y="0.5"/>
+                  <OffsetMin x="0.0" y="0.0"/>
+                  <OffsetMax x="0.0" y="0.0"/>
+                  <Rot x="0.0" y="0.0" z="0.0"/>
+                  <Scale x="1.0" y="1.0" z="1.0"/>
+                </InitObj>
+              </InitObjList>
+            </Canvas>
+          </ObjType2D>
+        </InitObjList>
+        <Text>갑작스럽지만, 네!! 사우디아라비아의 원유 10톤을 구매하겠습니다. 원유의 가격이…</Text>
+      </InitEvent>      
+      <InitEvent ID="32">
+        <InitCharList>
+          <CharType2D>
+            <Canvas ID="0">
+              <InitCharList>
+                <InitChar ID="1" Name="CH_01" Desc="테스트용" Anim="Idle">
+                  <AnchorMin x="0.8" y="0.283"/>
+                  <AnchorMax x="1.0" y="0.66"/>
+                  <Pivot x="0.5" y="0.5"/>
+                  <OffsetMin x="-1050.0" y="410.5"/>
+                  <OffsetMax x="1000.0" y="-900.5"/>
+                  <Rot x="0.0" y="0.0" z="0.0"/>
+                  <Scale x="1.0" y="1.0" z="1.0"/>
+                </InitChar>
+                <InitChar ID="2" Name="CH_02" Desc="테스트용" Anim="Idle">
+                  <AnchorMin x="0.8145625" y="0.2833334"/>
+                  <AnchorMax x="1.0" y="0.66"/>
+                  <Pivot x="0.5" y="0.5"/>
+                  <OffsetMin x="-1124.0" y="184.0"/>
+                  <OffsetMax x="962.0" y="-1127.0"/>
+                  <Rot x="0.0" y="0.0" z="0.0"/>
+                  <Scale x="1.0" y="1.0" z="1.0"/>
+                </InitChar>
+              </InitCharList>
+            </Canvas>
+          </CharType2D>
+        </InitCharList>
+        <InitObjList>
+          <ObjType2D>
+            <Canvas ID="0">
+              <InitObjList>
+                <InitObj ID="1" Name="TextBox" Desc="테스트_오브젝트1" Anim="null">
+                  <AnchorMin x="0.0" y="0.02147222"/>
+                  <AnchorMax x="0.9928594" y="0.2916111"/>
+                  <Pivot x="0.5" y="0.5"/>
+                  <OffsetMin x="36.5" y="15.0"/>
+                  <OffsetMax x="12.0" y="-12.0"/>
+                  <Rot x="0.0" y="0.0" z="0.0"/>
+                  <Scale x="1.0" y="1.0" z="1.0"/>
+                </InitObj>
+                <InitObj ID="2" Name="forward" Desc="다음 버튼" Anim="null">
+                  <AnchorMin x="0.9382969" y="0.036"/>
+                  <AnchorMax x="0.9803594" y="0.1208611"/>
+                  <Pivot x="0.5" y="0.5"/>
+                  <OffsetMin x="4.5" y="8.5"/>
+                  <OffsetMax x="3.5" y="6.5"/>
+                  <Rot x="0.0" y="0.0" z="0.0"/>
+                  <Scale x="1.0" y="1.0" z="1.0"/>
+                </InitObj>
+                <InitObj ID="5" Name="Map" Desc="Map" Anim="null">
+                  <AnchorMin x="0.9382969" y="0.1794722"/>
+                  <AnchorMax x="0.9803594" y="0.2601667"/>
+                  <Pivot x="0.5" y="0.5"/>
+                  <OffsetMin x="4" y="3.5"/>
+                  <OffsetMax x="-4.0" y="-3.5"/>
+                  <Rot x="0.0" y="0.0" z="0.0"/>
+                  <Scale x="1.0" y="1.0" z="1.0"/>
+                </InitObj>
+              </InitObjList>
+            </Canvas>
+            <Canvas ID="1">
+              <InitObjList>
+                <InitObj ID="0" Name="BackGround" Desc="배경" Anim="null">
+                  <AnchorMin x="0.0" y="0.0"/>
+                  <AnchorMax x="1.0" y="1.0"/>
+                  <Pivot x="0.5" y="0.5"/>
+                  <OffsetMin x="0.0" y="0.0"/>
+                  <OffsetMax x="0.0" y="0.0"/>
+                  <Rot x="0.0" y="0.0" z="0.0"/>
+                  <Scale x="1.0" y="1.0" z="1.0"/>
+                </InitObj>
+              </InitObjList>
+            </Canvas>
+          </ObjType2D>
+        </InitObjList>
+        <Text>여기, 3500 미국 달러가… 어랏? 미국 달러가 없잖아! 제가 수중에 대한민국의 돈, 한화만 있고 미국 달러를 가지고 있지 않아서 환전해 오겠습니다.</Text>
+      </InitEvent>            
+      <InitEvent ID="33">
+        <InitCharList>
+          <CharType2D>
+            <Canvas ID="0">
+              <InitCharList>
+                <InitChar ID="1" Name="CH_01" Desc="테스트용" Anim="Idle">
+                  <AnchorMin x="0.8" y="0.283"/>
+                  <AnchorMax x="1.0" y="0.66"/>
+                  <Pivot x="0.5" y="0.5"/>
+                  <OffsetMin x="-1050.0" y="410.5"/>
+                  <OffsetMax x="1000.0" y="-900.5"/>
+                  <Rot x="0.0" y="0.0" z="0.0"/>
+                  <Scale x="1.0" y="1.0" z="1.0"/>
+                </InitChar>
+                <InitChar ID="2" Name="CH_02" Desc="테스트용" Anim="Idle">
+                  <AnchorMin x="0.8145625" y="0.2833334"/>
+                  <AnchorMax x="1.0" y="0.66"/>
+                  <Pivot x="0.5" y="0.5"/>
+                  <OffsetMin x="-1124.0" y="184.0"/>
+                  <OffsetMax x="962.0" y="-1127.0"/>
+                  <Rot x="0.0" y="0.0" z="0.0"/>
+                  <Scale x="1.0" y="1.0" z="1.0"/>
+                </InitChar>
+              </InitCharList>
+            </Canvas>
+          </CharType2D>          
+        </InitCharList>
+        <InitObjList>
+          <ObjType2D>
+            <Canvas ID="0">
+              <InitObjList>
+                <InitObj ID="1" Name="TextBox" Desc="테스트_오브젝트1" Anim="null">
+                  <AnchorMin x="0.0" y="0.02147222"/>
+                  <AnchorMax x="0.9928594" y="0.2916111"/>
+                  <Pivot x="0.5" y="0.5"/>
+                  <OffsetMin x="36.5" y="15.0"/>
+                  <OffsetMax x="12.0" y="-12.0"/>
+                  <Rot x="0.0" y="0.0" z="0.0"/>
+                  <Scale x="1.0" y="1.0" z="1.0"/>
+                </InitObj>
+                <InitObj ID="2" Name="forward" Desc="다음 버튼">
+                  <AnchorMin x="0.9382969" y="0.036"/>
+                  <AnchorMax x="0.9803594" y="0.1208611"/>
+                  <Pivot x="0.5" y="0.5"/>
+                  <OffsetMin x="4.5" y="8.5"/>
+                  <OffsetMax x="3.5" y="6.5"/>
+                  <Rot x="0.0" y="0.0" z="0.0"/>
+                  <Scale x="1.0" y="1.0" z="1.0"/>
+                </InitObj>
+                <InitObj ID="5" Name="Map" Desc="Map" Anim="null">
+                  <AnchorMin x="0.9382969" y="0.1794722"/>
+                  <AnchorMax x="0.9803594" y="0.2601667"/>
+                  <Pivot x="0.5" y="0.5"/>
+                  <OffsetMin x="4" y="3.5"/>
+                  <OffsetMax x="-4.0" y="-3.5"/>
+                  <Rot x="0.0" y="0.0" z="0.0"/>
+                  <Scale x="1.0" y="1.0" z="1.0"/>
+                </InitObj>
+              </InitObjList>
+            </Canvas>
+            <Canvas ID="1">
+              <InitObjList>
+                <InitObj ID="0" Name="BackGround" Desc="배경">
+                  <AnchorMin x="0.0" y="0.0"/>
+                  <AnchorMax x="1.0" y="1.0"/>
+                  <Pivot x="0.5" y="0.5"/>
+                  <OffsetMin x="0.0" y="0.0"/>
+                  <OffsetMax x="0.0" y="0.0"/>
+                  <Rot x="0.0" y="0.0" z="0.0"/>
+                  <Scale x="1.0" y="1.0" z="1.0"/>
+                </InitObj>
+              </InitObjList>
+            </Canvas>
+          </ObjType2D>
+        </InitObjList>
+        <Text>어제 샀다면 같은 금액의 미국 달러를 훨씬 저렴하게 살 수 있었을 텐데. 환율에 따라 수입품의 가격이 높아졌다 낮아졌다하는구나..!</Text>
+      </InitEvent>      
+      <InitEvent ID="34">
+        <InitCharList>
+          <CharType2D>
+            <Canvas ID="0">
+              <InitCharList>
+                <InitChar ID="1" Name="CH_01" Desc="테스트용" Anim="Idle">
+                  <AnchorMin x="0.8" y="0.283"/>
+                  <AnchorMax x="1.0" y="0.66"/>
+                  <Pivot x="0.5" y="0.5"/>
+                  <OffsetMin x="-1050.0" y="410.5"/>
+                  <OffsetMax x="1000.0" y="-900.5"/>
+                  <Rot x="0.0" y="0.0" z="0.0"/>
+                  <Scale x="1.0" y="1.0" z="1.0"/>
+                </InitChar>
+                <InitChar ID="2" Name="CH_02" Desc="테스트용" Anim="Idle">
+                  <AnchorMin x="0.8145625" y="0.2833334"/>
+                  <AnchorMax x="1.0" y="0.66"/>
+                  <Pivot x="0.5" y="0.5"/>
+                  <OffsetMin x="-1124.0" y="184.0"/>
+                  <OffsetMax x="962.0" y="-1127.0"/>
+                  <Rot x="0.0" y="0.0" z="0.0"/>
+                  <Scale x="1.0" y="1.0" z="1.0"/>
+                </InitChar>
+              </InitCharList>
+            </Canvas>
+          </CharType2D>          
+        </InitCharList>
+        <InitObjList>
+          <ObjType2D>
+            <Canvas ID="0">
+              <InitObjList>
+                <InitObj ID="1" Name="TextBox" Desc="테스트_오브젝트1" Anim="null">
+                  <AnchorMin x="0.0" y="0.02147222"/>
+                  <AnchorMax x="0.9928594" y="0.2916111"/>
+                  <Pivot x="0.5" y="0.5"/>
+                  <OffsetMin x="36.5" y="15.0"/>
+                  <OffsetMax x="12.0" y="-12.0"/>
+                  <Rot x="0.0" y="0.0" z="0.0"/>
+                  <Scale x="1.0" y="1.0" z="1.0"/>
+                </InitObj>
+                <InitObj ID="2" Name="forward" Desc="다음 버튼">
+                  <AnchorMin x="0.9382969" y="0.036"/>
+                  <AnchorMax x="0.9803594" y="0.1208611"/>
+                  <Pivot x="0.5" y="0.5"/>
+                  <OffsetMin x="4.5" y="8.5"/>
+                  <OffsetMax x="3.5" y="6.5"/>
+                  <Rot x="0.0" y="0.0" z="0.0"/>
+                  <Scale x="1.0" y="1.0" z="1.0"/>
+                </InitObj>
+                <InitObj ID="5" Name="Map" Desc="Map" Anim="null">
+                  <AnchorMin x="0.9382969" y="0.1794722"/>
+                  <AnchorMax x="0.9803594" y="0.2601667"/>
+                  <Pivot x="0.5" y="0.5"/>
+                  <OffsetMin x="4" y="3.5"/>
+                  <OffsetMax x="-4.0" y="-3.5"/>
+                  <Rot x="0.0" y="0.0" z="0.0"/>
+                  <Scale x="1.0" y="1.0" z="1.0"/>
+                </InitObj>
+              </InitObjList>
+            </Canvas>
+            <Canvas ID="1">
+              <InitObjList>
+                <InitObj ID="0" Name="BackGround" Desc="배경" Anim="null">
+                  <AnchorMin x="0.0" y="0.0"/>
+                  <AnchorMax x="1.0" y="1.0"/>
+                  <Pivot x="0.5" y="0.5"/>
+                  <OffsetMin x="0.0" y="0.0"/>
+                  <OffsetMax x="0.0" y="0.0"/>
+                  <Rot x="0.0" y="0.0" z="0.0"/>
+                  <Scale x="1.0" y="1.0" z="1.0"/>
+                </InitObj>
+              </InitObjList>
+            </Canvas>
+          </ObjType2D>
+        </InitObjList>
+        <Text>여기 있습니다. 무역 결과로, 한국에서 얻을 수 없는 원유를 구매하게 되었네요! 오신 김에 대한민국의 주요 수출품인 반도체와 자동차도 확인하고 가세요! 그외에도 대한민국의 여러 물품을 둘러보시면 좋겠습니다!</Text>
+      </InitEvent>      
+      <InitEvent ID="35">
+        <InitCharList>
+          <CharType2D>
+            <Canvas ID="0">
+              <InitCharList>
+                <InitChar ID="3" Name="CH_07" Desc="CH_07" Anim="Idle">
+                  <AnchorMin x="0.01" y="0.021"/>
+                  <AnchorMax x="0.237" y="0.463"/>
+                  <Pivot x="0.5" y="0.5"/>
+                  <OffsetMin x="0.0" y="452.0"/>
+                  <OffsetMax x="0.0" y="0.0"/>
+                  <Rot x="0.0" y="0.0" z="0.0"/>
+                  <Scale x="1.0" y="1.0" z="1.0"/>
+                </InitChar>
+              </InitCharList>
+            </Canvas>
+          </CharType2D>
+        </InitCharList>
+        <InitObjList>
+          <ObjType2D>
+            <Canvas ID="0">
+              <InitObjList>
+                <InitObj ID="1" Name="TextBox" Desc="테스트_오브젝트1" Anim="null">
+                  <AnchorMin x="0.0" y="0.02147222"/>
+                  <AnchorMax x="0.9928594" y="0.2916111"/>
+                  <Pivot x="0.5" y="0.5"/>
+                  <OffsetMin x="36.5" y="15.0"/>
+                  <OffsetMax x="12.0" y="-12.0"/>
+                  <Rot x="0.0" y="0.0" z="0.0"/>
+                  <Scale x="1.0" y="1.0" z="1.0"/>
+                </InitObj>
+                <InitObj ID="4" Name="Confirm_PopUp_1" Desc="다음 버튼" Anim="null">
+                  <AnchorMin x="0.0" y="0.0"/>
+                  <AnchorMax x="1.0" y="1.0"/>
+                  <Pivot x="0.5" y="0.5"/>
+                  <OffsetMin x="500.0" y="460.0"/>
+                  <OffsetMax x="-600.0" y="-160.0"/>
+                  <Rot x="0.0" y="0.0" z="0.0"/>
+                  <Scale x="1.0" y="1.0" z="1.0"/>
+                </InitObj>
+                <InitObj ID="5" Name="Map" Desc="Map" Anim="null">
+                  <AnchorMin x="0.9382969" y="0.1794722"/>
+                  <AnchorMax x="0.9803594" y="0.2601667"/>
+                  <Pivot x="0.5" y="0.5"/>
+                  <OffsetMin x="4" y="3.5"/>
+                  <OffsetMax x="-4.0" y="-3.5"/>
+                  <Rot x="0.0" y="0.0" z="0.0"/>
+                  <Scale x="1.0" y="1.0" z="1.0"/>
+                </InitObj>
+              </InitObjList>
+            </Canvas>
+            <Canvas ID="1">
+              <InitObjList>
+                <InitObj ID="0" Name="BackGround" Desc="배경" Anim="null">
+                  <AnchorMin x="0.0" y="0.0"/>
+                  <AnchorMax x="1.0" y="1.0"/>
+                  <Pivot x="0.5" y="0.5"/>
+                  <OffsetMin x="0.0" y="0.0"/>
+                  <OffsetMax x="0.0" y="0.0"/>
+                  <Rot x="0.0" y="0.0" z="0.0"/>
+                  <Scale x="1.0" y="1.0" z="1.0"/>
+                </InitObj>
+              </InitObjList>
+            </Canvas>
+          </ObjType2D>
+        </InitObjList>
+        <Text>거래가 성사되어 기쁩니다. 말씀하셨듯이 한국의 반도체와 핸드폰, 자동차는 전세계적으로 품질이 좋기로 유명하지요. 그래서 한국을 방문한 김에 살펴보고자 하는 참이었습니다. 다음에 또 뵈었으면 좋겠군요.</Text>
+      </InitEvent>      
+      <InitEvent ID="36">
+        <InitCharList>
+          <CharType2D>
+            <Canvas ID="0">
+              <InitCharList>
+                <InitChar ID="0" Name="CH_04" Desc="해설" Anim="Idle">
+                  <AnchorMin x="0.7647344" y="0.2833334"/>
+                  <AnchorMax x="0.9881719" y="0.733"/>
+                  <Pivot x="0.5" y="0.5"/>
+                  <OffsetMin x="-932.5" y="-573.5"/>
+                  <OffsetMax x="1051.5" y="218.5"/>
+                  <Rot x="0.0" y="0.0" z="0.0"/>
+                  <Scale x="1.0" y="1.0" z="1.0"/>
+                </InitChar>
+              </InitCharList>
+            </Canvas>
+          </CharType2D>
+        </InitCharList>
+        <InitObjList>
+          <ObjType2D>
+            <Canvas ID="0">
+              <InitObjList>
+                <InitObj ID="1" Name="TextBox" Desc="테스트_오브젝트1" Anim="null">
+                  <AnchorMin x="0.0" y="0.02147222"/>
+                  <AnchorMax x="0.9928594" y="0.2916111"/>
+                  <Pivot x="0.5" y="0.5"/>
+                  <OffsetMin x="36.5" y="15.0"/>
+                  <OffsetMax x="12.0" y="-12.0"/>
+                  <Rot x="0.0" y="0.0" z="0.0"/>
+                  <Scale x="1.0" y="1.0" z="1.0"/>
+                </InitObj>
+                <InitObj ID="2" Name="forward" Desc="다음 버튼">
+                  <AnchorMin x="0.9382969" y="0.036"/>
+                  <AnchorMax x="0.9803594" y="0.1208611"/>
+                  <Pivot x="0.5" y="0.5"/>
+                  <OffsetMin x="4.5" y="8.5"/>
+                  <OffsetMax x="3.5" y="6.5"/>
+                  <Rot x="0.0" y="0.0" z="0.0"/>
+                  <Scale x="1.0" y="1.0" z="1.0"/>
+                </InitObj>
+                <InitObj ID="5" Name="Map" Desc="Map" Anim="null">
+                  <AnchorMin x="0.9382969" y="0.1794722"/>
+                  <AnchorMax x="0.9803594" y="0.2601667"/>
+                  <Pivot x="0.5" y="0.5"/>
+                  <OffsetMin x="4" y="3.5"/>
+                  <OffsetMax x="-4.0" y="-3.5"/>
+                  <Rot x="0.0" y="0.0" z="0.0"/>
+                  <Scale x="1.0" y="1.0" z="1.0"/>
+                </InitObj>
+              </InitObjList>
+            </Canvas>
+            <Canvas ID="1">
+              <InitObjList>
+                <InitObj ID="0" Name="BackGround" Desc="배경" Anim="null">
+                  <AnchorMin x="0.0" y="0.0"/>
+                  <AnchorMax x="1.0" y="1.0"/>
+                  <Pivot x="0.5" y="0.5"/>
+                  <OffsetMin x="0.0" y="0.0"/>
+                  <OffsetMax x="0.0" y="0.0"/>
+                  <Rot x="0.0" y="0.0" z="0.0"/>
+                  <Scale x="1.0" y="1.0" z="1.0"/>
+                </InitObj>
+              </InitObjList>
+            </Canvas>
+          </ObjType2D>
+        </InitObjList>
+        <Text>이 배는 사우디아라비아에서 원유를 싣고 들어왔습니다. 우리나라는 원유가 나지 않기 때문에 원유 공급을 수입에 의존하고 있습니다. 대신 우리나라는 반도체, 자동차 등을 해외로 수출하는 데 주력합니다. 세계화, 개방화의 추세에 따라 국제 거래의 영역이 재화뿐만 아니라 서비스 및 자본, 노동에까지 확대되고 있습니다. 이러한 국가 간 재화와 서비스 및 자본의 거래 과정에서 화폐의 교환이 필요하며, 이에 따라 환율이 결정됩니다. 퀴즈를 풀어볼까요?</Text>
+      </InitEvent>      
+      <InitEvent ID="37">
+        <InitCharList>
+          <CharType2D>
+            <Canvas ID="0">
+              <InitCharList>
+                <InitChar ID="0" Name="CH_04" Desc="해설" Anim="Idle">
+                  <AnchorMin x="0.7647344" y="0.2833334"/>
+                  <AnchorMax x="0.9881719" y="0.733"/>
+                  <Pivot x="0.5" y="0.5"/>
+                  <OffsetMin x="-932.5" y="-573.5"/>
+                  <OffsetMax x="1051.5" y="218.5"/>
+                  <Rot x="0.0" y="0.0" z="0.0"/>
+                  <Scale x="1.0" y="1.0" z="1.0"/>
+                </InitChar>
+              </InitCharList>
+            </Canvas>
+          </CharType2D>
+        </InitCharList>
+        <InitObjList>
+          <ObjType2D>
+            <Canvas ID="0">
+              <InitObjList>
+                <InitObj ID="1" Name="TextBox" Desc="테스트_오브젝트1" Anim="null">
+                  <AnchorMin x="0.0" y="0.02147222"/>
+                  <AnchorMax x="0.9928594" y="0.2916111"/>
+                  <Pivot x="0.5" y="0.5"/>
+                  <OffsetMin x="36.5" y="15.0"/>
+                  <OffsetMax x="12.0" y="-12.0"/>
+                  <Rot x="0.0" y="0.0" z="0.0"/>
+                  <Scale x="1.0" y="1.0" z="1.0"/>
+                </InitObj>
+                <InitObj ID="2" Name="forward" Desc="다음 버튼">
+                  <AnchorMin x="0.9382969" y="0.036"/>
+                  <AnchorMax x="0.9803594" y="0.1208611"/>
+                  <Pivot x="0.5" y="0.5"/>
+                  <OffsetMin x="4.5" y="8.5"/>
+                  <OffsetMax x="3.5" y="6.5"/>
+                  <Rot x="0.0" y="0.0" z="0.0"/>
+                  <Scale x="1.0" y="1.0" z="1.0"/>
+                </InitObj>
+                <InitObj ID="5" Name="Map" Desc="Map" Anim="null">
+                  <AnchorMin x="0.9382969" y="0.1794722"/>
+                  <AnchorMax x="0.9803594" y="0.2601667"/>
+                  <Pivot x="0.5" y="0.5"/>
+                  <OffsetMin x="4" y="3.5"/>
+                  <OffsetMax x="-4.0" y="-3.5"/>
+                  <Rot x="0.0" y="0.0" z="0.0"/>
+                  <Scale x="1.0" y="1.0" z="1.0"/>
+                </InitObj>
+              </InitObjList>
+            </Canvas>
+            <Canvas ID="1">
+              <InitObjList>
+                <InitObj ID="0" Name="BackGround" Desc="배경" Anim="null">
+                  <AnchorMin x="0.0" y="0.0"/>
+                  <AnchorMax x="1.0" y="1.0"/>
+                  <Pivot x="0.5" y="0.5"/>
+                  <OffsetMin x="0.0" y="0.0"/>
+                  <OffsetMax x="0.0" y="0.0"/>
+                  <Rot x="0.0" y="0.0" z="0.0"/>
+                  <Scale x="1.0" y="1.0" z="1.0"/>
+                </InitObj>
+              </InitObjList>
+            </Canvas>
+          </ObjType2D>
+        </InitObjList>
+        <Text>세계화, 개방화 추세에 따라 국제 거래 과정에서 화폐의 교환이 필요합니다. 이 때 높은 환율은 수출업자에게는 유리하고 수입업자에게는 불리합니다. 반대로 낮은 환율은 수출업자에게는 불리하고 수입업자에게는 유리합니다. 환율이 우리 경제에 미칠 다른 영향을 생각해봅시다.</Text>
+      </InitEvent>
+      <InitEvent ID="38">
+        <InitCharList>
+          <CharType2D>
+            <Canvas ID="0">
+              <InitCharList>
+                <InitChar ID="0" Name="CH_04" Desc="해설" Anim="Idle">
+                  <AnchorMin x="0.7647344" y="0.2833334"/>
+                  <AnchorMax x="0.9881719" y="0.733"/>
+                  <Pivot x="0.5" y="0.5"/>
+                  <OffsetMin x="-932.5" y="-573.5"/>
+                  <OffsetMax x="1051.5" y="218.5"/>
+                  <Rot x="0.0" y="0.0" z="0.0"/>
+                  <Scale x="1.0" y="1.0" z="1.0"/>
+                </InitChar>
+              </InitCharList>
+            </Canvas>
+          </CharType2D>
+        </InitCharList>
+        <InitObjList>
+          <ObjType2D>
+            <Canvas ID="0">
+              <InitObjList>
+                <InitObj ID="1" Name="TextBox" Desc="테스트_오브젝트1" Anim="null">
+                  <AnchorMin x="0.0" y="0.02147222"/>
+                  <AnchorMax x="0.9928594" y="0.2916111"/>
+                  <Pivot x="0.5" y="0.5"/>
+                  <OffsetMin x="36.5" y="15.0"/>
+                  <OffsetMax x="12.0" y="-12.0"/>
+                  <Rot x="0.0" y="0.0" z="0.0"/>
+                  <Scale x="1.0" y="1.0" z="1.0"/>
+                </InitObj>
+                <InitObj ID="2" Name="forward" Desc="다음 버튼">
+                  <AnchorMin x="0.9382969" y="0.036"/>
+                  <AnchorMax x="0.9803594" y="0.1208611"/>
+                  <Pivot x="0.5" y="0.5"/>
+                  <OffsetMin x="4.5" y="8.5"/>
+                  <OffsetMax x="3.5" y="6.5"/>
+                  <Rot x="0.0" y="0.0" z="0.0"/>
+                  <Scale x="1.0" y="1.0" z="1.0"/>
+                </InitObj>
+                <InitObj ID="5" Name="Map" Desc="Map" Anim="null">
+                  <AnchorMin x="0.9382969" y="0.1794722"/>
+                  <AnchorMax x="0.9803594" y="0.2601667"/>
+                  <Pivot x="0.5" y="0.5"/>
+                  <OffsetMin x="4" y="3.5"/>
+                  <OffsetMax x="-4.0" y="-3.5"/>
+                  <Rot x="0.0" y="0.0" z="0.0"/>
+                  <Scale x="1.0" y="1.0" z="1.0"/>
+                </InitObj>
+              </InitObjList>
+            </Canvas>
+            <Canvas ID="1">
+              <InitObjList>
+                <InitObj ID="0" Name="BackGround" Desc="배경" Anim="null">
+                  <AnchorMin x="0.0" y="0.0"/>
+                  <AnchorMax x="1.0" y="1.0"/>
+                  <Pivot x="0.5" y="0.5"/>
+                  <OffsetMin x="0.0" y="0.0"/>
+                  <OffsetMax x="0.0" y="0.0"/>
+                  <Rot x="0.0" y="0.0" z="0.0"/>
+                  <Scale x="1.0" y="1.0" z="1.0"/>
+                </InitObj>
+              </InitObjList>
+            </Canvas>
+          </ObjType2D>
+        </InitObjList>
+        <Text>앱을 종료하시겠습니까?</Text>
+      </InitEvent>      
+    </TextEvent>
+    <PopUpEvent>      
+    </PopUpEvent>
+    <CardPopUpEvent>      
+    </CardPopUpEvent>
+    <SphereImageOnEvent>
+      <InitEvent ID="0">
+        <InitCharList>
+          <CharType2D>
+            <Canvas ID="0">
+              <InitCharList>
+                <InitChar ID="0" Name="CH_04" Desc="해설" Anim="Idle">
+                  <AnchorMin x="0.7647344" y="0.2833334"/>
+                  <AnchorMax x="0.9881719" y="0.733"/>
+                  <Pivot x="0.5" y="0.5"/>
+                  <OffsetMin x="-932.5" y="-573.5"/>
+                  <OffsetMax x="1051.5" y="218.5"/>
+                  <Rot x="0.0" y="0.0" z="0.0"/>
+                  <Scale x="1.0" y="1.0" z="1.0"/>
+                </InitChar>
+              </InitCharList>
+            </Canvas>
+          </CharType2D>
+        </InitCharList>
+        <InitObjList>
+          <ObjType2D>
+            <Canvas ID="0">
+              <InitObjList>
+                <InitObj ID="1" Name="TextBox" Desc="테스트_오브젝트1" Anim="null">
+                  <AnchorMin x="0.0" y="0.02147222"/>
+                  <AnchorMax x="0.9928594" y="0.2916111"/>
+                  <Pivot x="0.5" y="0.5"/>
+                  <OffsetMin x="36.5" y="15.0"/>
+                  <OffsetMax x="12.0" y="-12.0"/>
+                  <Rot x="0.0" y="0.0" z="0.0"/>
+                  <Scale x="1.0" y="1.0" z="1.0"/>
+                </InitObj>
+                <InitObj ID="2" Name="forward" Desc="다음 버튼" Anim="null">
+                  <AnchorMin x="0.9382969" y="0.036"/>
+                  <AnchorMax x="0.9803594" y="0.1208611"/>
+                  <Pivot x="0.5" y="0.5"/>
+                  <OffsetMin x="4.5" y="8.5"/>
+                  <OffsetMax x="3.5" y="6.5"/>
+                  <Rot x="0.0" y="0.0" z="0.0"/>
+                  <Scale x="1.0" y="1.0" z="1.0"/>
+                </InitObj>
+                <InitObj ID="15" Name="Controller" Desc="컨트롤러" Anim="null">
+                  <AnchorMin x="0.8692969" y="0.8005555"/>
+                  <AnchorMax x="0.9928594" y="0.973"/>
+                  <Pivot x="0.5" y="0.5"/>
+                  <OffsetMin x="42.19995" y="11.38"/>
+                  <OffsetMax x="-29.80005" y="-19.62"/>
+                  <Rot x="0.0" y="0.0" z="0.0"/>
+                  <Scale x="1.0" y="1.0" z="1.0"/>
+                </InitObj>
+              </InitObjList>
+            </Canvas>            
+          </ObjType2D>
+          <ObjType3D>            
+            <InitObjList>
+              <InitObj ID="0" Name="Sphere" Desc="테스트_오브젝트3D_1" Anim="Idle">
+                <Pos x="0.0" y="0.0" z="0.0"/>
+                <Rot x="0.0" y="0.0" z="0.0"/>
+                <Scale x="35.0" y="35.0" z="35.0"/>
+              </InitObj>
+            </InitObjList>        
+          </ObjType3D>
+        </InitObjList>
+        <Text>능허대는 백제가 중국과 통교할 때 이용하던 나루터로, 백제의 활발한 교역활동을 보여주는 역사적 장소이다. 백제 근초고왕 때부터 개로왕 때까지 백제의 전성기에 이용되었다. 백제에서 중국으로 향하는 길이 고구려에 의해 막혀있어 무역을 할 바닷길을 개척하게 됐는데 그 거점이 바로 능허대이다. 지금은 땅이 매립되어 예전의 모습을 확인하기 어렵지만 원래 바다와 맞닿은 곳이었다.</Text>
+        <SphereImage>인천_Stage1</SphereImage>      
+      </InitEvent>      
+      <InitEvent ID="1">
+        <InitCharList>
+          <CharType2D>
+            <Canvas ID="0">
+              <InitCharList>
+                <InitChar ID="0" Name="CH_04" Desc="해설" Anim="Idle">
+                  <AnchorMin x="0.7647344" y="0.2833334"/>
+                  <AnchorMax x="0.9881719" y="0.733"/>
+                  <Pivot x="0.5" y="0.5"/>
+                  <OffsetMin x="-932.5" y="-573.5"/>
+                  <OffsetMax x="1051.5" y="218.5"/>
+                  <Rot x="0.0" y="0.0" z="0.0"/>
+                  <Scale x="1.0" y="1.0" z="1.0"/>
+                </InitChar>
+              </InitCharList>
+            </Canvas>
+          </CharType2D>
+        </InitCharList>
+        <InitObjList>
+          <ObjType2D>
+            <Canvas ID="0">
+              <InitObjList>
+                <InitObj ID="1" Name="TextBox" Desc="테스트_오브젝트1" Anim="null">
+                  <AnchorMin x="0.0" y="0.02147222"/>
+                  <AnchorMax x="0.9928594" y="0.2916111"/>
+                  <Pivot x="0.5" y="0.5"/>
+                  <OffsetMin x="36.5" y="15.0"/>
+                  <OffsetMax x="12.0" y="-12.0"/>
+                  <Rot x="0.0" y="0.0" z="0.0"/>
+                  <Scale x="1.0" y="1.0" z="1.0"/>
+                </InitObj>
+                <InitObj ID="2" Name="forward" Desc="다음 버튼" Anim="null">
+                  <AnchorMin x="0.9382969" y="0.036"/>
+                  <AnchorMax x="0.9803594" y="0.1208611"/>
+                  <Pivot x="0.5" y="0.5"/>
+                  <OffsetMin x="4.5" y="8.5"/>
+                  <OffsetMax x="3.5" y="6.5"/>
+                  <Rot x="0.0" y="0.0" z="0.0"/>
+                  <Scale x="1.0" y="1.0" z="1.0"/>
+                </InitObj>
+                <InitObj ID="8" Name="Controller" Desc="컨트롤러" Anim="null">
+                  <AnchorMin x="0.8692969" y="0.8005555"/>
+                  <AnchorMax x="0.9928594" y="0.973"/>
+                  <Pivot x="0.5" y="0.5"/>
+                  <OffsetMin x="42.19995" y="11.38"/>
+                  <OffsetMax x="-29.80005" y="-19.62"/>
+                  <Rot x="0.0" y="0.0" z="0.0"/>
+                  <Scale x="1.0" y="1.0" z="1.0"/>
+                </InitObj>
+              </InitObjList>
+            </Canvas>
+          </ObjType2D>
+          <ObjType3D>
+            <InitObjList>
+              <InitObj ID="0" Name="Sphere" Desc="테스트_오브젝트3D_1" Anim="Idle">
+                <Pos x="0.0" y="0.0" z="0.0"/>
+                <Rot x="0.0" y="0.0" z="0.0"/>
+                <Scale x="35.0" y="35.0" z="35.0"/>
+              </InitObj>
+            </InitObjList>
+          </ObjType3D>
+        </InitObjList>
+        <Text>인천경제자유구역(ifez)은 세계 은행, 녹색기후기금, 세계선거기관협의회 등 13개 국제기구와 75개 글로벌 기업이 위치한 비즈니스 허브이다. 인천국제공항을 비롯하여, 초대형 화물선이 입항 가능한 최첨단 항만, 1시간 내 서울 및 수도권을 연결하는 도로망이 구축된 물류와 교통의 중심지다.</Text>
+        <SphereImage>G타워하늘정원</SphereImage>
+      </InitEvent>      
+      <!-- 3d Animation stage 1-->
+      <InitEvent ID="2">
+        <InitCharList>
+          <CharType2D>
+            <Canvas ID="0">
+              <InitCharList>                
+              </InitCharList>
+            </Canvas>
+          </CharType2D>
+        </InitCharList>
+        <InitObjList>
+          <ObjType2D>
+            <Canvas ID="0">
+              <InitObjList>                
+                <InitObj ID="10" Name="ClipScene_Button" Desc="다음 버튼" Anim="null">
+                  <AnchorMin x="0.821" y="0.878"/>
+                  <AnchorMax x="0.955" y="0.952"/>
+                  <Pivot x="0.5" y="0.5"/>
+                  <OffsetMin x="-3.5" y="-3.5"/>
+                  <OffsetMax x="3.5" y="3.5"/>
+                  <Rot x="0.0" y="0.0" z="0.0"/>
+                  <Scale x="1.0" y="1.0" z="1.0"/>
+                </InitObj>
+              </InitObjList>
+            </Canvas>
+          </ObjType2D>
+          <ObjType3D>
+            <InitObjList>              
+            </InitObjList>
+          </ObjType3D>
+        </InitObjList>
+        <Text>테스트</Text>        
+      </InitEvent>
+      <!-- 3d Animation stage 2 -->
+      <InitEvent ID="3">
+        <InitCharList>
+          <CharType2D>
+            <Canvas ID="0">
+              <InitCharList>                
+              </InitCharList>
+            </Canvas>
+          </CharType2D>
+        </InitCharList>
+        <InitObjList>
+          <ObjType2D>
+            <Canvas ID="0">
+              <InitObjList>               
+                <InitObj ID="6" Name="ClipScene_Button" Desc="다음 버튼" Anim="null">
+                  <AnchorMin x="0.82" y="0.054"/>
+                  <AnchorMax x="0.957" y="0.132"/>
+                  <Pivot x="0.5" y="0.5"/>
+                  <OffsetMin x="0.0" y="-1.0"/>
+                  <OffsetMax x="-1.0" y="0.0"/>
+                  <Rot x="0.0" y="0.0" z="0.0"/>
+                  <Scale x="1.0" y="1.0" z="1.0"/>
+                </InitObj>                
+              </InitObjList>
+            </Canvas>
+          </ObjType2D>
+          <ObjType3D>
+            <InitObjList>            
+            </InitObjList>
+          </ObjType3D>
+        </InitObjList>
+        <Text>테스트</Text>        
+      </InitEvent>
+    </SphereImageOnEvent>
+    <SpeechBubbleOnEvent>     
+    </SpeechBubbleOnEvent>
+    <QuarterSelectEvent>      
+    </QuarterSelectEvent>
+    <QuarterEvent>      
+    </QuarterEvent>
+    <QuizEvent>      
+      <InitEvent ID="0">
+        <InitCharList>
+          <CharType2D>
+            <Canvas ID="0">
+              <InitCharList>
+                <InitChar ID="0" Name="CH_04" Desc="해설" Anim="Idle">
+                  <AnchorMin x="0.7647344" y="0.2833334"/>
+                  <AnchorMax x="0.9881719" y="0.733"/>
+                  <Pivot x="0.5" y="0.5"/>
+                  <OffsetMin x="-932.5" y="-573.5"/>
+                  <OffsetMax x="1051.5" y="218.5"/>
+                  <Rot x="0.0" y="0.0" z="0.0"/>
+                  <Scale x="1.0" y="1.0" z="1.0"/>
+                </InitChar>
+              </InitCharList>
+            </Canvas>
+          </CharType2D>
+        </InitCharList>
+        <InitObjList>
+          <ObjType2D>
+            <Canvas ID="0">
+              <InitObjList>
+              </InitObjList>
+            </Canvas>
+            <Canvas ID="1">
+              <InitObjList>
+                <InitObj ID="0" Name="BackGround" Desc="배경" Anim="null">
+                  <AnchorMin x="0.0" y="0.0"/>
+                  <AnchorMax x="1.0" y="1.0"/>
+                  <Pivot x="0.5" y="0.5"/>
+                  <OffsetMin x="0.0" y="0.0"/>
+                  <OffsetMax x="0.0" y="0.0"/>
+                  <Rot x="0.0" y="0.0" z="0.0"/>
+                  <Scale x="1.0" y="1.0" z="1.0"/>
+                </InitObj>
+              </InitObjList>
+            </Canvas>
+          </ObjType2D>
+        </InitObjList>
+        <Quiz Type="Opt" ID="0"/>
+      </InitEvent>      
+      <InitEvent ID="1">
+        <InitCharList>
+          <CharType2D>
+            <Canvas ID="0">
+              <InitCharList>
+                <InitChar ID="0" Name="CH_04" Desc="해설" Anim="Idle">
+                  <AnchorMin x="0.7647344" y="0.2833334"/>
+                  <AnchorMax x="0.9881719" y="0.733"/>
+                  <Pivot x="0.5" y="0.5"/>
+                  <OffsetMin x="-932.5" y="-573.5"/>
+                  <OffsetMax x="1051.5" y="218.5"/>
+                  <Rot x="0.0" y="0.0" z="0.0"/>
+                  <Scale x="1.0" y="1.0" z="1.0"/>
+                </InitChar>
+              </InitCharList>
+            </Canvas>
+          </CharType2D>
+        </InitCharList>
+        <InitObjList>
+          <ObjType2D>
+            <Canvas ID="0">
+              <InitObjList>                
+              </InitObjList>
+            </Canvas>
+            <Canvas ID="1">
+              <InitObjList>
+                <InitObj ID="0" Name="BackGround" Desc="배경" Anim="null">
+                  <AnchorMin x="0.0" y="0.0"/>
+                  <AnchorMax x="1.0" y="1.0"/>
+                  <Pivot x="0.5" y="0.5"/>
+                  <OffsetMin x="0.0" y="0.0"/>
+                  <OffsetMax x="0.0" y="0.0"/>
+                  <Rot x="0.0" y="0.0" z="0.0"/>
+                  <Scale x="1.0" y="1.0" z="1.0"/>
+                </InitObj>
+              </InitObjList>
+            </Canvas>
+          </ObjType2D>
+        </InitObjList>
+        <Quiz Type="Typing1" ID="0"/>        
+      </InitEvent>
+      <InitEvent ID="2">
+        <InitCharList>
+          <CharType2D>
+            <Canvas ID="0">
+              <InitCharList>
+                <InitChar ID="0" Name="CH_04" Desc="해설" Anim="Idle">
+                  <AnchorMin x="0.7647344" y="0.2833334"/>
+                  <AnchorMax x="0.9881719" y="0.733"/>
+                  <Pivot x="0.5" y="0.5"/>
+                  <OffsetMin x="-932.5" y="-573.5"/>
+                  <OffsetMax x="1051.5" y="218.5"/>
+                  <Rot x="0.0" y="0.0" z="0.0"/>
+                  <Scale x="1.0" y="1.0" z="1.0"/>
+                </InitChar>
+              </InitCharList>
+            </Canvas>
+          </CharType2D>
+        </InitCharList>
+        <InitObjList>
+          <ObjType2D>
+            <Canvas ID="0">
+              <InitObjList>
+              </InitObjList>
+            </Canvas>
+            <Canvas ID="1">
+              <InitObjList>
+                <InitObj ID="0" Name="BackGround" Desc="배경" Anim="null">
+                  <AnchorMin x="0.0" y="0.0"/>
+                  <AnchorMax x="1.0" y="1.0"/>
+                  <Pivot x="0.5" y="0.5"/>
+                  <OffsetMin x="0.0" y="0.0"/>
+                  <OffsetMax x="0.0" y="0.0"/>
+                  <Rot x="0.0" y="0.0" z="0.0"/>
+                  <Scale x="1.0" y="1.0" z="1.0"/>
+                </InitObj>
+              </InitObjList>
+            </Canvas>
+          </ObjType2D>
+        </InitObjList>
+        <Quiz Type="Typing1" ID="1"/>
+      </InitEvent>
+      <InitEvent ID="3">
+        <InitCharList>
+          <CharType2D>
+            <Canvas ID="0">
+              <InitCharList>
+                <InitChar ID="0" Name="CH_04" Desc="해설" Anim="Idle">
+                  <AnchorMin x="0.7647344" y="0.2833334"/>
+                  <AnchorMax x="0.9881719" y="0.733"/>
+                  <Pivot x="0.5" y="0.5"/>
+                  <OffsetMin x="-932.5" y="-573.5"/>
+                  <OffsetMax x="1051.5" y="218.5"/>
+                  <Rot x="0.0" y="0.0" z="0.0"/>
+                  <Scale x="1.0" y="1.0" z="1.0"/>
+                </InitChar>
+              </InitCharList>
+            </Canvas>
+          </CharType2D>
+        </InitCharList>
+        <InitObjList>
+          <ObjType2D>
+            <Canvas ID="0">
+              <InitObjList>
+              </InitObjList>
+            </Canvas>
+            <Canvas ID="1">
+              <InitObjList>
+                <InitObj ID="0" Name="BackGround" Desc="배경" Anim="null">
+                  <AnchorMin x="0.0" y="0.0"/>
+                  <AnchorMax x="1.0" y="1.0"/>
+                  <Pivot x="0.5" y="0.5"/>
+                  <OffsetMin x="0.0" y="0.0"/>
+                  <OffsetMax x="0.0" y="0.0"/>
+                  <Rot x="0.0" y="0.0" z="0.0"/>
+                  <Scale x="1.0" y="1.0" z="1.0"/>
+                </InitObj>
+              </InitObjList>
+            </Canvas>
+          </ObjType2D>
+        </InitObjList>
+        <Quiz Type="Typing1" ID="2"/>
+      </InitEvent>
+      <InitEvent ID="4">
+        <InitCharList>
+          <CharType2D>
+            <Canvas ID="0">
+              <InitCharList>
+                <InitChar ID="0" Name="CH_04" Desc="해설" Anim="Idle">
+                  <AnchorMin x="0.7647344" y="0.2833334"/>
+                  <AnchorMax x="0.9881719" y="0.733"/>
+                  <Pivot x="0.5" y="0.5"/>
+                  <OffsetMin x="-932.5" y="-573.5"/>
+                  <OffsetMax x="1051.5" y="218.5"/>
+                  <Rot x="0.0" y="0.0" z="0.0"/>
+                  <Scale x="1.0" y="1.0" z="1.0"/>
+                </InitChar>
+              </InitCharList>
+            </Canvas>
+          </CharType2D>
+        </InitCharList>
+        <InitObjList>
+          <ObjType2D>
+            <Canvas ID="0">
+              <InitObjList>
+              </InitObjList>
+            </Canvas>
+            <Canvas ID="1">
+              <InitObjList>
+                <InitObj ID="0" Name="BackGround" Desc="배경" Anim="null">
+                  <AnchorMin x="0.0" y="0.0"/>
+                  <AnchorMax x="1.0" y="1.0"/>
+                  <Pivot x="0.5" y="0.5"/>
+                  <OffsetMin x="0.0" y="0.0"/>
+                  <OffsetMax x="0.0" y="0.0"/>
+                  <Rot x="0.0" y="0.0" z="0.0"/>
+                  <Scale x="1.0" y="1.0" z="1.0"/>
+                </InitObj>
+              </InitObjList>
+            </Canvas>
+          </ObjType2D>
+        </InitObjList>
+        <Quiz Type="Typing1" ID="3"/>
+      </InitEvent>
+      <InitEvent ID="5">
+        <InitCharList>
+          <CharType2D>
+            <Canvas ID="0">
+              <InitCharList>
+                <InitChar ID="0" Name="CH_04" Desc="해설" Anim="Idle">
+                  <AnchorMin x="0.7647344" y="0.2833334"/>
+                  <AnchorMax x="0.9881719" y="0.733"/>
+                  <Pivot x="0.5" y="0.5"/>
+                  <OffsetMin x="-932.5" y="-573.5"/>
+                  <OffsetMax x="1051.5" y="218.5"/>
+                  <Rot x="0.0" y="0.0" z="0.0"/>
+                  <Scale x="1.0" y="1.0" z="1.0"/>
+                </InitChar>
+              </InitCharList>
+            </Canvas>
+          </CharType2D>
+        </InitCharList>
+        <InitObjList>
+          <ObjType2D>
+            <Canvas ID="0">
+              <InitObjList>
+              </InitObjList>
+            </Canvas>
+            <Canvas ID="1">
+              <InitObjList>
+                <InitObj ID="0" Name="BackGround" Desc="배경" Anim="null">
+                  <AnchorMin x="0.0" y="0.0"/>
+                  <AnchorMax x="1.0" y="1.0"/>
+                  <Pivot x="0.5" y="0.5"/>
+                  <OffsetMin x="0.0" y="0.0"/>
+                  <OffsetMax x="0.0" y="0.0"/>
+                  <Rot x="0.0" y="0.0" z="0.0"/>
+                  <Scale x="1.0" y="1.0" z="1.0"/>
+                </InitObj>
+              </InitObjList>
+            </Canvas>
+          </ObjType2D>
+        </InitObjList>
+        <Quiz Type="Typing1" ID="4"/>
+      </InitEvent>
+    </QuizEvent>
+    <CaptureEvent>
+      <InitEvent ID="0">
+        <InitCharList>
+          <CharType2D>           
+          </CharType2D>
+        </InitCharList>
+        <InitObjList>          
+        </InitObjList>
+      </InitEvent>
+      <InitEvent ID="1">
+        <InitCharList>
+          <CharType2D>
+            <Canvas ID="0">
+              <InitCharList>               
+              </InitCharList>
+            </Canvas>
+          </CharType2D>
+        </InitCharList>
+        <InitObjList>          
+          <ObjType2D>
+            <Canvas ID="2">
+              <InitObjList>
+                <InitObj ID="0" Name="Money_2" Desc="의상" Anim="null">
+                  <AnchorMin x="0.0" y="0.0"/>
+                  <AnchorMax x="1.0" y="1.0"/>
+                  <Pivot x="0.5" y="0.5"/>
+                  <OffsetMin x="-220.0" y="0.0"/>
+                  <OffsetMax x="-80.0" y="0.0"/>
+                  <Rot x="0.0" y="0.0" z="0.0"/>
+                  <Scale x="1.0" y="1.0" z="1.0"/>
+                </InitObj>  
+              </InitObjList>
+            </Canvas>            
+          </ObjType2D>          
+        </InitObjList>
+      </InitEvent>
+    </CaptureEvent>
+    <PanelPopEvent>
+      <InitEvent ID="0">
+        <InitCharList>
+          <CharType2D>
+            <Canvas ID="0">
+              <InitCharList>
+                <InitChar ID="0" Name="CH_04" Desc="해설" Anim="Idle">                  
+                  <AnchorMin x="0.7647344" y="0.2833334"/>
+                  <AnchorMax x="0.9881719" y="0.733"/>
+                  <Pivot x="0.5" y="0.5"/>
+                  <OffsetMin x="-932.5" y="-573.5"/>
+                  <OffsetMax x="1051.5" y="218.5"/>
+                  <Rot x="0.0" y="0.0" z="0.0"/>
+                  <Scale x="1.0" y="1.0" z="1.0"/>
+                </InitChar>
+              </InitCharList>
+            </Canvas>
+          </CharType2D>
+        </InitCharList>
+        <InitObjList>
+          <ObjType2D>
+            <Canvas ID="0">
+              <InitObjList>
+                <InitObj ID="0" Name="System_PopUp" Desc="시스템 팝업" Anim="null">
+                  <AnchorMin x="0.0" y="0.0"/>
+                  <AnchorMax x="1.0" y="1.0"/>
+                  <Pivot x="0.5" y="0.5"/>
+                  <OffsetMin x="500.0" y="600.0"/>
+                  <OffsetMax x="-600.0" y="-200.0"/>
+                  <Rot x="0.0" y="0.0" z="0.0"/>
+                  <Scale x="1.0" y="1.0" z="1.0"/>
+                </InitObj>
+              </InitObjList>
+            </Canvas>
+            <Canvas ID="1">
+              <InitObjList>
+                <InitObj ID="0" Name="BackGround" Desc="배경" Anim="null">
+                  <AnchorMin x="0.0" y="0.0"/>
+                  <AnchorMax x="1.0" y="1.0"/>
+                  <Pivot x="0.5" y="0.5"/>
+                  <OffsetMin x="0.0" y="0.0"/>
+                  <OffsetMax x="0.0" y="0.0"/>
+                  <Rot x="0.0" y="0.0" z="0.0"/>
+                  <Scale x="1.0" y="1.0" z="1.0"/>
+                </InitObj>
+              </InitObjList>
+            </Canvas>
+          </ObjType2D>
+        </InitObjList>
+        <Text>능허대에 대해 도착했습니까?</Text>
+      </InitEvent>            
+      <InitEvent ID="1">
+        <InitCharList>
+          <CharType2D>
+            <Canvas ID="0">
+              <InitCharList>
+                <InitChar ID="0" Name="CH_04" Desc="해설" Anim="Idle">
+                  <AnchorMin x="0.7647344" y="0.2833334"/>
+                  <AnchorMax x="0.9881719" y="0.733"/>
+                  <Pivot x="0.5" y="0.5"/>
+                  <OffsetMin x="-932.5" y="-573.5"/>
+                  <OffsetMax x="1051.5" y="218.5"/>
+                  <Rot x="0.0" y="0.0" z="0.0"/>
+                  <Scale x="1.0" y="1.0" z="1.0"/>
+                </InitChar>
+              </InitCharList>
+            </Canvas>
+          </CharType2D>
+        </InitCharList>
+        <InitObjList>
+          <ObjType2D>
+            <Canvas ID="0">
+              <InitObjList>
+                <InitObj ID="0" Name="System_PopUp" Desc="시스템 팝업" Anim="null">
+                  <AnchorMin x="0.0" y="0.0"/>
+                  <AnchorMax x="1.0" y="1.0"/>
+                  <Pivot x="0.5" y="0.5"/>
+                  <OffsetMin x="500.0" y="600.0"/>
+                  <OffsetMax x="-600.0" y="-200.0"/>
+                  <Rot x="0.0" y="0.0" z="0.0"/>
+                  <Scale x="1.0" y="1.0" z="1.0"/>
+                </InitObj>                
+              </InitObjList>
+            </Canvas>
+            <Canvas ID="1">
+              <InitObjList>
+                <InitObj ID="0" Name="BackGround" Desc="배경" Anim="null">
+                  <AnchorMin x="0.0" y="0.0"/>
+                  <AnchorMax x="1.0" y="1.0"/>
+                  <Pivot x="0.5" y="0.5"/>
+                  <OffsetMin x="0.0" y="0.0"/>
+                  <OffsetMax x="0.0" y="0.0"/>
+                  <Rot x="0.0" y="0.0" z="0.0"/>
+                  <Scale x="1.0" y="1.0" z="1.0"/>
+                </InitObj>
+              </InitObjList>
+            </Canvas>
+          </ObjType2D>
+        </InitObjList>
+        <Text>경기도 안산시 원곡동에 위치한 세계문화체험관에 도착했습니까?</Text>
+      </InitEvent>
+      <InitEvent ID="2">
+        <InitCharList>
+          <CharType2D>
+            <Canvas ID="0">
+              <InitCharList>
+                <InitChar ID="0" Name="CH_04" Desc="해설" Anim="Idle">
+                  <AnchorMin x="0.7647344" y="0.2833334"/>
+                  <AnchorMax x="0.9881719" y="0.733"/>
+                  <Pivot x="0.5" y="0.5"/>
+                  <OffsetMin x="-932.5" y="-573.5"/>
+                  <OffsetMax x="1051.5" y="218.5"/>
+                  <Rot x="0.0" y="0.0" z="0.0"/>
+                  <Scale x="1.0" y="1.0" z="1.0"/>
+                </InitChar>
+              </InitCharList>
+            </Canvas>
+          </CharType2D>
+        </InitCharList>
+        <InitObjList>
+          <ObjType2D>
+            <Canvas ID="0">
+              <InitObjList>
+                <InitObj ID="0" Name="System_PopUp" Desc="시스템 팝업" Anim="null">
+                  <AnchorMin x="0.0" y="0.0"/>
+                  <AnchorMax x="1.0" y="1.0"/>
+                  <Pivot x="0.5" y="0.5"/>
+                  <OffsetMin x="500.0" y="600.0"/>
+                  <OffsetMax x="-600.0" y="-200.0"/>
+                  <Rot x="0.0" y="0.0" z="0.0"/>
+                  <Scale x="1.0" y="1.0" z="1.0"/>
+                </InitObj>
+              </InitObjList>
+            </Canvas>
+            <Canvas ID="1">
+              <InitObjList>
+                <InitObj ID="0" Name="BackGround" Desc="배경" Anim="null">
+                  <AnchorMin x="0.0" y="0.0"/>
+                  <AnchorMax x="1.0" y="1.0"/>
+                  <Pivot x="0.5" y="0.5"/>
+                  <OffsetMin x="0.0" y="0.0"/>
+                  <OffsetMax x="0.0" y="0.0"/>
+                  <Rot x="0.0" y="0.0" z="0.0"/>
+                  <Scale x="1.0" y="1.0" z="1.0"/>
+                </InitObj>
+              </InitObjList>
+            </Canvas>
+          </ObjType2D>
+        </InitObjList>
+        <Text>###(은)는 안산시 세계문화체험관에 도착했나요?</Text>
+      </InitEvent>
+    </PanelPopEvent>
+    <TableSettingEvent>
+      <InitEvent ID="0">
+        <InitObjList>
+          <ObjType2D>
+            <Canvas ID="4">
+              <InitObjList>                                
+              </InitObjList>
+            </Canvas>            
+          </ObjType2D>
+        </InitObjList>        
+      </InitEvent>
+    </TableSettingEvent>
+    <SelectItemEvent>     
+    </SelectItemEvent>
+    <LoadSceneEvent>
+      <InitEvent ID="0">
+        <Scene>SelectMap</Scene>
+      </InitEvent>
+      <InitEvent ID="1">
+        <Scene>SelectMap</Scene>
+      </InitEvent>
+      <InitEvent ID="2">
+        <Scene>SelectMap</Scene>
+      </InitEvent>
+    </LoadSceneEvent>
+  </EventList>
+</ScenarioInfo>
+
