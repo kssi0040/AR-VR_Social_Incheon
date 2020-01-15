@@ -3296,7 +3296,7 @@
           </ObjType3D>
         </InitObjList>
         <Text>인천경제자유구역(ifez)은 세계 은행, 녹색기후기금, 세계선거기관협의회 등 13개 국제기구와 75개 글로벌 기업이 위치한 비즈니스 허브이다. 인천국제공항을 비롯하여, 초대형 화물선이 입항 가능한 최첨단 항만, 1시간 내 서울 및 수도권을 연결하는 도로망이 구축된 물류와 교통의 중심지다.</Text>
-        <SphereImage>G타워하늘정원</SphereImage>
+        <SphereImage>인천_Stage2</SphereImage>
       </InitEvent>      
       <!-- 3d Animation stage 1-->
       <InitEvent ID="2">
